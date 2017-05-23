@@ -1,0 +1,77 @@
+Sections
+
+Les tests de fonctionnalité
+
+Binaire de jeu
+
+On a bien un unique binaire (hormis un eventuel afficheur de la
+map) ?
+Le plateau
+
+Le plateau est présent dès la première exécution ?
+Multi-équipes
+
+On lance plusieurs fois le binaire : plusieurs équipes composées
+de plusieurs joueurs sont bien présentes sur le plateau ?
+Joueurs
+
+Les joueurs évoluent sur le plateau, ça bouge, il se passe
+quelque chose ?
+Mort des joueurs
+
+Des joueurs meurent quand ils sont entourés ?
+Communication entre les joueurs
+
+Des infos sont échangées entre les processus des joueurs ?
+Stratégie de recherche
+
+Une stratégie de recherche d'un adversaire est présente ?
+Afficheur de map
+
+On a un afficheur pour la map ?
+L implémentation
+
+Création SHM
+
+Le segment de mémoire partagé est bien crée ?
+Usage SHM
+
+Le segment de mémoire partagé est bien utilisé ?
+Création somophores
+
+Des somophores sont bien créés pour gérer les accès
+concurrentiels aux ressources partagées ?
+Usage somophores
+
+Les somophores sont correctement utilisés ?
+Création MSGQ
+
+Les messages queue sont correctement créées ?
+Usage MSGQ
+
+Les messages queue sont correctement utilisées ?
+Destruction des IPCs en fin de partie
+
+L'ensemble des IPC sont bien libérés à la fin par le dernier
+process à quitter (hors processus graphique qui doit pas vautrer
+si il n'y a plus la map) ?
+
+Par fin "normale" on entend ce que vous avez choisi pour que le
+jeu s'arrête : par exemple lorsqu'il n'y a plus qu'un seul
+joueur sur le plateau.
+Destruction des IPCs en cas d arrêt prématuré
+
+L'ensemble des IPC sont bien libérés quand on fait un ctrl+C ?
+Bonus
+
+Bonus graphique
+
+L'interface graphique est plutôt jolie/sympa/pratique... ?
+D autres bonus
+
+Comptez dans cette partie les fonctionnalités bonus
+distinctes. Vous pouvez noter jusqu'à 5 bonus disctincts.
+
+Chaque bonus doit être :
+- Un minimum utile (à votre discrétion)
+- Bien réalisé et 100% fonctionnel

@@ -1,0 +1,165 @@
+ # Introduction
+
+ Nous vous demandons, pour le bon déroulement de cette notation :
+ - De rester courtois, poli, respectueux, constructif lors de cet
+ échange. Le lien de confiance entre la communauté 42 et vous en
+ dépend.
+ - De bien mettre en évidence auprès de la personne notée (ou du
+ groupe) les dysfonctionnements éventuels.
+ - D'accepter qu'il puisse y avoir parfois des différences
+ d’interprétation sur les demandes du sujet ou l’étendue des
+ fonctionnalités. Restez ouvert d'esprit face a la vision de
+ l'autre (a-t-il raison ou tort ?), et notez le plus honnêtement
+ possible.
+ Bonne soutenance à tous !
+
+ # Guidelines
+
+ RAPPELEZ VOUS QUE VOUS NE DEVEZ CORRIGER QUE CE QUI SE TROUVE SUR LE
+ DÉPÔT DE RENDU DE L'ÉTUDIANT.
+ Il s'agit de faire un "git clone" du dépôt de rendu, et de corriger ce
+ qui s'y trouve.
+ Si le correcteur n'a pas encore fait ce projet, il est obligatoire
+ de lire le sujet en entier avant de commencer cette soutenance.
+
+ # Préliminaires
+
+ ## Consignes préliminaires
+
+ Vérifiez d'abord les éléments suivants :
+ - Il y a bien un rendu (dans le dépôt git)
+ - Pas de triche, l'étudiant doit pouvoir expliquer
+ son code.
+ - Si le programme est écrit dans un langage compilable, il y a
+ bien un Makefile avec au moins les règles all, re, et clean. Si
+ un élément de cette liste n'est pas respecté, la notation
+ s'arrête la. Utilisez le flag approprié. Vous êtes encouragés à
+ continuer de débattre du projet, mais le barème n'est pas
+ appliqué.
+
+ - Yes
+ - No
+
+ # Premiere section
+
+ ## Partie Obligatoire
+
+ ## Présence de l équation réduite
+
+ Le programme prend en paramètre ou attend sur l'entrée standard
+ une équation et affiche ensuite la même équation sous forme
+ réduite ? Est-ce la bonne ?
+
+ - Yes
+ - No
+
+ ## Format de l équation réduite
+
+ Dans l'équation réduite, les puissances sont affichées jusqu'à
+ la dernière non nulle, une seule fois, et l'un des deux cotés
+ de l'équation est nul ?
+
+ - Yes
+ - No
+
+ ## Gestion de l entrée
+
+ Essayez plusieurs entrées bien formatées mais potentiellement
+ mal gérées (des coefficients nuls, négatifs, pas entiers ...).
+ Le programme les gère bien ? (pas de crash, pas d'erreurs de
+ calcul, pas de boucle infinie ...).
+ IMPORTANT: si vous avez répondu non à l'une de ces trois
+ question, la soutenance s'arrete là.
+
+ - Yes
+ - No
+
+ ## Equations de degré 0
+
+ Entrez une équation possible (par exemple, "5 * X^0 = 5 * X^0").
+ Le programme vous dit-il que tous les nombres réels sont solution?
+ Entrez une équation impossible (par exemple, "4 * X^0 = 8 *
+ X^0"). Le programme vous dit-il qu'il n'y a pas de solutions?
+
+ - Yes
+ - No
+
+ ## Equations de degré 1
+
+ Entrez une équation de degré 1 (par exemple: "5 * X^0 = 4 * X^0 + 7 * X^1").
+ Le programme vous affiche-t-il la solution de
+ l'équation ? Faites plusieurs essais.
+
+ - Yes
+ - No
+
+ ## Equations de degré 2 - Discriminant strictement positif
+
+ Entrez une équation de degré deux avec un discriminant
+ strictement positif (par exemple: "5 * X^0 + 13 * X^1 + 3 * X^2 = 1 *
+ X^0 + 1 * X^1").
+ Le programme vous affiche bien qu'elle a un discriminant
+ strictement positif ? Le programme vous affiche bien deux
+ solutions? Ce sont les bonnes ? Faites plusieurs essais.
+
+ - Yes
+ - No
+
+ ## Equations de degré 2 - Discriminant nul
+
+ Entrez une équation de degré deux avec un discriminant égal à 0
+ (par exemple: "6 * X^0 + 11 * X^1 + 5 * X^2 = 1 * X^0 + 1 * X^1").
+ Le programme vous affiche bien qu'elle a un discriminant nul ?
+ Le programme vous affiche bien une unique solution? C'est la
+ bonne ? Faites plusieurs essais.
+
+ - Yesb
+ - No
+
+ ## Equations de degré 2 - Discriminant strictement négatif
+
+ Entrez une équation de degré deux avec un discriminant strictement
+ négatif (par exemple: "5 * X^0 + 3 * X^1 + 3 * X^2 = 1 * X^0 + 0 *
+ X^1").
+ Le programme vous affiche bien qu'elle a un discriminant strictement négatif ?
+ Le programme vous affiche bien deux solutions complexes? Ce sont les
+ bonnes ? Faites plusieurs essais.
+
+ - Yes
+ - No
+
+ ## Equations de degré 3 ou plus
+
+ Entrez une équation de degré trois ou plus . Le programme doit
+ refuser de resoudre l equation. Bon apres, si le programme la
+ resoud, mettez-les points quand meme et faites un petit sifflement
+ d admiration, mais en tous cas, le programme ne doit pas planter.
+
+ - Yes
+ - No
+
+ # Bonus
+
+ # Partie Bonus
+
+ ## Gestion de l entrée sous forme naturelle
+
+ Le programme est capable de gérer une entrée sous forme naturelle ?
+ - Un coefficient seul ("4") est considéré comme étant en facteur de X^0.
+ - Un X seul est considéré comme de coefficient 1 et de puissance 1.
+ - Une puissance absente ("4 * X") est considérée comme valant 1.
+ - Un coefficient absent ("X^6") est considéré comme valant 1.
+ - Les puissances peuvent être dans un ordre arbitraire, éventuellement répétées.
+
+ - Yes
+ - No
+
+ ## Deuxieme bonus
+
+ Gestion des erreurs sur l'entrée (lexique et syntaxe).
+ Affichage des résultats sous forme de fraction irréductible quand
+ c'est pertinent.
+ Afficher des étapes intermédiaires.
+ Etc...
+
+ - Rate it from 0 (failed) through 5 (excellent)

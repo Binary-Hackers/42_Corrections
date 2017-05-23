@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>Intranet 42</title>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="EqsqhC4ntOMFCxpDsSiOraKADlIPuXvbKNpGjuh8dgk=" name="csrf-token" />
+<meta charset='utf-8'>
+<meta content='IE=Edge,chrome=1' http-equiv='X-UA-Compatible'>
+<meta content='width=device-width,height=device-height,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0' name='viewport'>
+<meta content='yes' name='mobile-web-app-capable'>
+<meta content='yes' name='apple-mobile-web-app-capable'>
+<meta content='translucent-black' name='apple-mobile-web-app-status-bar-style'>
+<meta content='Intranet 42' name='apple-mobile-web-app-title'>
+<meta content='on' http-equiv='cleartype'>
+<link href='https://projects.intrav2.42.fr/assets/42_logo_black-0dcc25d1cdb873c2857bc80734364451.png' rel='icon' type='image/svg'>
+<link href='https://projects.intrav2.42.fr/assets/42_logo_black-0dcc25d1cdb873c2857bc80734364451.png' rel='shortcut icon' type='image/svg'>
+<link href='/opensearch.xml' rel='search' title='login' type='application/opensearchdescription+xml'>
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script>
+<![endif]-->
+<link href="/assets/application-67163f0bcd73506f7aac76404e5db1e0.css" media="all" rel="stylesheet" />
+<script src="/assets/require-bda0ed7529a31c9f1b6d46ba76289e1b.js"></script><script>require.config({"baseUrl":"/assets","packages":["vendor","common","components","common/media","common/add_on","common/callback","common/modal","common/simple_form","common/typeahead","project","galaxy","galaxy/profile","galaxy/infoBox","galaxy/galaxy","animMaster"],"paths":{"components/main":"/assets/components/main-68d751c7cf482437b74bc1a7c3247a72","common/main":"/assets/common/main-032df0f5d844088748d68b50428106dc","vendor/main":"/assets/vendor/main-352b88438f91e95171c5dbf465361221","application":"/assets/application-3141138049f5809870c6114dd69050ac"},"shim":{"scrollspy":{"deps":["jquery"]},"vendor/video-dev":{"deps":["jquery"]},"vendor/video-markers":{"deps":["vendor/video-dev"]},"vendor/video-resolutions":{"deps":["vendor/video-dev"]},"datetimepicker":{"deps":["jquery","moment"]},"rangeslider":{"deps":["jquery"]},"fullcalendar":{"deps":["jquery","moment"]},"jquery_nested_form":{"deps":["jquery"]},"highcharts-release":{"deps":["jquery"],"exports":"Highcharts"},"jquery-textcomplete":{"deps":["jquery"]},"chosen-jquery":{"deps":["jquery"]},"maxlength":{"deps":["jquery"]},"moment-twitter":{"deps":["moment"]},"jquery-ujs":{"deps":["jquery"]},"onScreen":{"deps":["jquery"]},"typeahead":{"deps":["jquery"]},"bloodhound":{"deps":["jquery"],"exports":"Bloodhound"},"bootstrap":{"deps":["jquery"]},"easel":{"exports":"createjs"},"tween":{"deps":["easel"],"exports":"Tween"},"stats":{"deps":["jquery"],"exports":"Stats"}}}); require(["application"]);</script>
+<body class='' data-id='12087' data-url='//websocket.intrav2.42.fr/'>
+<script>
+  var _notifications = {
+  "unread": [],
+  "read": []
+  };
+  
+  var _user = {"login":"jelefebv","id":12087};
+</script>
+<div class='notifications-container'></div>
+
+<div class='main-navbar'>
+<div class='main-navbar-left'>
+<div class='main-navbar-logo'>
+<a href="https://profile.intrav2.42.fr"><img alt="42" src="/assets/42_logo-0e3c2f415e527aa6703482c3b9a4a7bd.svg" />
+</a></div>
+<span class='hidden-sidebars main-menu-trigger lines-button x' data-trigger-menu=''>
+<span class='lines'></span>
+</span>
+<form action='https://profile.intrav2.42.fr/searches/search' class='main-navbar-search hidden-xs' data-user-url='https://profile.intrav2.42.fr/users/' method='get'>
+<input class='search-input' name='query' placeholder='search...'>
+</form>
+</div>
+<div class='main-navbar-user-nav'>
+<span class='dropdown'>
+<a data-toggle='dropdown' href='#'>
+<span data-login='jelefebv'>
+jelefebv
+</span>
+<div class='user-profile-picture visible-sidebars' style='background-image: url( https://cdn.42.fr/userprofil/profilview/jelefebv.jpg)'></div>
+</a>
+<ul aria-labelledby='User menu' class='dropdown-menu' role='menu'>
+<li>
+<a href="https://profile.intrav2.42.fr/slots"><span class='icon-calendar'></span>
+Manage slots
+</a></li>
+<li>
+<a href="https://profile.intrav2.42.fr/users/jelefebv"><span class='icon-user'></span>
+View my profile
+</a></li>
+<li class='visible-xs'>
+<a data-method="delete" href="https://signin.intrav2.42.fr/logout" rel="nofollow"><span class='icon-power-off'></span>
+Logout
+</a></li>
+</ul>
+</span>
+<div class='user-actions hidden-xs'>
+<a class="user-action labelable" data-notification-drop="" href="#"><span class='icon-envelope-o'></span>
+<span class='labeled'>0</span>
+</a><a class="user-action labelable" data-method="delete" href="https://signin.intrav2.42.fr/logout" rel="nofollow"><span class='icon-power-off unlabeled'></span>
+</a></div>
+</div>
+</div>
+
+<div class='page'>
+<div class='left-sidebar-fix with-main-menu'></div>
+<div class='page-sidebar left-main-container page-sidebar-fixed-left under-main-navbar'><ul class='main-left-navbar'>
+<li>
+<a class='inactive' href='https://profile.intrav2.42.fr'>
+<span class='icon-scale-1'></span>
+<span class='visible-overlay'>
+Profile
+</span>
+</a>
+</li>
+<li>
+<a class='active' href='https://projects.intrav2.42.fr'>
+<span class='icon-network-2-1'></span>
+<span class='visible-overlay'>
+Projets
+</span>
+</a>
+</li>
+<li>
+<a class='inactive' href='https://elearning.intrav2.42.fr'>
+<span class='icon-movie-play-1'></span>
+<span class='visible-overlay'>
+E-learning
+</span>
+</a>
+</li>
+<li>
+<a class='inactive' href='https://forum.intrav2.42.fr'>
+<span class='icon-bubble-conversation-5'></span>
+<span class='visible-overlay'>
+Forum
+</span>
+</a>
+</li>
+<li>
+<a class='inactive' href='https://meta.intrav2.42.fr'>
+<span class='icon-compass-2'></span>
+<span class='visible-overlay'>
+Meta
+</span>
+</a>
+</li>
+</ul><div class='app-sidebar-left'>
+<div class='marked-title inverse'>Go to</div>
+<div class='projects-menu-list'>
+<a class="project-item sidebar-item" href="/"><span class='icon-briefcase project-status-icon'></span>
+My projects
+</a><a class="project-item sidebar-item" href="/projects"><span class='icon-list-1 project-status-icon'></span>
+All projects
+</a></div>
+<div class='marked-title inverse'>Your projects</div>
+<div class='projects-menu-list'>
+<a class="project-item sidebar-item" href="/projects/libft"><span class='project-status-icon icon-check project-status-finished'></span>
+Libft
+</a><a class="project-item sidebar-item" href="/projects/get_next_line"><span class='project-status-icon icon-check project-status-finished'></span>
+Get_Next_Line
+</a><a class="project-item sidebar-item" href="/projects/ft_ls"><span class='project-status-icon icon-clock project-status-progress'></span>
+ft_ls
+</a><a class="project-item sidebar-item" href="/projects/fdf"><span class='project-status-icon icon-check project-status-finished'></span>
+FdF
+</a><a class="project-item sidebar-item" href="/projects/ft_printf"><span class='project-status-icon icon-check project-status-finished'></span>
+ft_printf
+</a><a class="project-item sidebar-item" href="/projects/ft_sh1"><span class='project-status-icon icon-check project-status-finished'></span>
+ft_sh1
+</a><a class="project-item sidebar-item" href="/projects/exam-c"><span class='project-status-icon icon-clock project-status-progress'></span>
+Exam C
+</a><a class="project-item sidebar-item" href="/projects/push_swap"><span class='project-status-icon icon-check project-status-finished'></span>
+Push_swap
+</a><a class="project-item sidebar-item" href="/projects/piscine-php"><span class='project-status-icon icon-clock project-status-waiting'></span>
+Piscine PHP
+</a><a class="project-item sidebar-item" href="/projects/rushes"><span class='project-status-icon project-status-no-idea'></span>
+Rushes
+</a><a class="project-item sidebar-item" href="/projects/libftasm"><span class='project-status-icon icon-check project-status-finished'></span>
+LibftASM
+</a><a class="project-item sidebar-item" href="/projects/savoir-relier"><span class='project-status-icon icon-check project-status-finished'></span>
+Savoir Relier
+</a><a class="project-item sidebar-item" href="/projects/computorv1"><span class='project-status-icon icon-check project-status-finished'></span>
+ComputorV1
+</a></div>
+</div></div>
+<div class='page-content'>
+<div class='row'>
+
+<div class='main-top-menu'>
+
+</div>
+<div class='container-item'>
+<h1 class='main-title primary'>
+Scale for project
+
+<a href="/projects/n-puzzle">N-puzzle</a>
+</h1>
+<h4 class='marked-title'>Git repository</h4>
+<div class='container-inner-item project-repo'>
+<div class='input-group'>
+<input class='form-control' data-git-url='' disabled='' type='text' value='vogsphere@vogsphere.42.fr:intra/2015/activities/n_puzzle/gbarrion'>
+<span class='input-group-addon' data-copy='[data-git-url]'>
+<span class='icon-paste'></span>
+</span>
+</div>
+</div>
+<div class='scale-introduction dancer from-down' id='introduction-62'>
+<h3>Introduction</h3>
+<p>
+In order to have a productive and tolerable grading session, we ask that you :<br/><br/>- Stay courteous, polite, respectful and constructive during this session. The bond of trust between members of the 42 community depends on it;<br/>- Take care to show the graded person(s) the problems you notice, and explain them as best you can;<br/>- Accept that there may be differences in interepretation on the featureset and/or what the subject requires. Stay open-minded, try to honestly determine who is right and who is not, and grade accordingly.<br/>
+</p>
+</div>
+<div class='scale-guidelines dancer from-down' id='guidelines-62'>
+<h3>Guidelines</h3>
+<p>
+Remember that you must ONLY grade what's on the turn-in repository !<br/><br/>You have to "git clone" the repository, and grade what's on it, AND ONLY WHAT IS ON IT.<br/>
+</p>
+</div>
+</div>
+<div class='container-item dancer from-down hidden-xlg' id='ratings-62'>
+<h2>Ratings</h2>
+<div class='on-grey'>
+<p class='marked-title'>Define the type of error (if there is an error), which ended the correction.</p>
+<div class='btn-group block' data-radio-item='flag-small'>
+<label class='btn btn-default btn-success label_flag_ok on-active' for='scale_team_flag_ok' name='scale_team[flag]'>
+<span class='icon-checkmark'></span>
+Ok
+</label>
+<label class='btn btn-danger btn-default label_flag_empty_work on-active' for='scale_team_flag_empty_work' name='scale_team[flag]'>
+<span class='icon-question-circle'></span>
+Empty work
+</label>
+<label class='btn btn-danger btn-default label_flag_incomplete_work on-active' for='scale_team_flag_incomplete_work' name='scale_team[flag]'>
+<span class='icon-exclamation-circle'></span>
+Incomplete work
+</label>
+<label class='btn btn-danger btn-default label_flag_no_author_file on-active' for='scale_team_flag_no_author_file' name='scale_team[flag]'>
+<span class='icon-user'></span>
+No author file
+</label>
+<label class='btn btn-danger btn-default label_flag_invalid_compilation on-active' for='scale_team_flag_invalid_compilation' name='scale_team[flag]'>
+<span class='icon-gears'></span>
+Invalid compilation
+</label>
+<label class='btn btn-danger btn-default label_flag_norme on-active' for='scale_team_flag_norme' name='scale_team[flag]'>
+<span class='icon-book'></span>
+Norme
+</label>
+<label class='btn btn-danger btn-default label_flag_cheat on-active' for='scale_team_flag_cheat' name='scale_team[flag]'>
+<span class='icon-times-circle'></span>
+Cheat
+</label>
+<label class='btn btn-danger btn-default label_flag_crash on-active' for='scale_team_flag_crash' name='scale_team[flag]'>
+<span class='icon-fire2'></span>
+Crash
+</label>
+</div>
+</div>
+</div>
+<div class='container-item dancer from-down' id='attachments-62'>
+<h2>Attachments</h2>
+<div class='project-attachments-list'>
+</div>
+
+
+<div class='project-attachments-list'>
+<div class='project-attachment-item'>
+<h4 class='attachment-name'>
+<span class='icon-file'></span>
+<a href="https://cdn.intrav2.42.fr/pdf/pdf/103/npuzzle.pdf" target="_blank">Subject</a>
+</h4>
+</div>
+<div class='project-attachment-item'>
+<h4 class='attachment-name'>
+<span class='icon-file'></span>
+<a href="/uploads/document/document/99/npuzzle-gen.py" target="_blank">Puzzle generator</a>
+</h4>
+</div>
+</div>
+
+
+</div>
+<form accept-charset="UTF-8" action="/projects/n-puzzle/scales/62/scale_teams/50040" class="simple_form form-horizontal edit_scale_team" id="edit_scale_team_50040" method="post" novalidate="novalidate"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /><input name="_method" type="hidden" value="patch" /><input name="authenticity_token" type="hidden" value="EqsqhC4ntOMFCxpDsSiOraKADlIPuXvbKNpGjuh8dgk=" /></div><div class='container-item scale-section-answers'>
+<h2 class='main-title primary'>Sections</h2>
+<div class='on-grey'>
+<section class='scale-section-item dancer from-down' id='section-254'>
+<h3 class='main-title'>First and foremost</h3>
+<p></p>
+<h4 class='scale-question-name'>Preliminary checks</h4>
+<p class='scale-section-guidelines'>
+Check the following elements:<br/><br/>- There is something in the git repository<br/>- The "auteur" file, if required by the subject, is present and valid<br/>- The Makefile, if required, is present and has the required rules<br/>- If the project is coded in C, the Norm has to be respected, the Norminette being considered the reference<br/><br/>If one of these elements is not in confirmity with what the subject requires, the session stops. You may still debate on the project, but you are not to grade the student(s).<br/><br/>During the rest of this session, if the program has an inappropriate behaviour (Segfault, bus error, double-free, uncaught exception, etc ...), the session stops.<br/>
+</p>
+<div class='scale-question-answers'>
+<div class="form-group hidden scale_team_answer_id"><div class="col-sm-10"><input class="hidden form-control" id="scale_team_answer_id" name="[scale_team][answers_attributes][0][id]" type="hidden" /></div></div>
+<div class="form-group hidden scale_team_answer_question_id"><div class="col-sm-10"><input class="hidden form-control" id="scale_team_answer_question_id" name="[scale_team][answers_attributes][0][question_id]" type="hidden" value="624" /></div></div>
+<div class='btn-group block'>
+<input autocomplete="off" class="checkbox-input" id="radio_[scale_team][answers_attributes][0][value]_true" name="[scale_team][answers_attributes][0][value]" type="radio" value="1"></input>
+<label class='btn btn-success checkbox-label light-bg' for='radio_[scale_team][answers_attributes][0][value]_true'>
+<span class='icon-check'></span>
+Yes
+</label>
+<input autocomplete="off" checked="checked" class="checkbox-input" id="radio_[scale_team][answers_attributes][0][value]_false" name="[scale_team][answers_attributes][0][value]" type="radio" value="0"></input>
+<label class='btn btn-danger checkbox-label light-bg' for='radio_[scale_team][answers_attributes][0][value]_false'>
+<span class='icon-times'></span>
+No
+</label>
+</div>
+</div>
+</section>
+<section class='scale-section-item dancer from-down' id='section-255'>
+<h3 class='main-title'>Actually running the program</h3>
+<p></p>
+<h4 class='scale-question-name'>Output correctness</h4>
+<p class='scale-section-guidelines'>
+The students have the output required by the subject, which is:<br/>- Complexity in time<br/>- Complexity in size<br/>- Number of moves from initial state to solution<br/>- Ordered sequence of states that make up the solution<br/><br/>Or, if the puzzle is unsolvable, it has to be displayed, and the program has to exit cleanly.<br/>
+</p>
+<div class='scale-question-answers'>
+<div class="form-group hidden scale_team_answer_id"><div class="col-sm-10"><input class="hidden form-control" id="scale_team_answer_id" name="[scale_team][answers_attributes][1][id]" type="hidden" /></div></div>
+<div class="form-group hidden scale_team_answer_question_id"><div class="col-sm-10"><input class="hidden form-control" id="scale_team_answer_question_id" name="[scale_team][answers_attributes][1][question_id]" type="hidden" value="625" /></div></div>
+<div class='btn-group block'>
+<input autocomplete="off" class="checkbox-input" id="radio_[scale_team][answers_attributes][1][value]_true" name="[scale_team][answers_attributes][1][value]" type="radio" value="1"></input>
+<label class='btn btn-success checkbox-label light-bg' for='radio_[scale_team][answers_attributes][1][value]_true'>
+<span class='icon-check'></span>
+Yes
+</label>
+<input autocomplete="off" checked="checked" class="checkbox-input" id="radio_[scale_team][answers_attributes][1][value]_false" name="[scale_team][answers_attributes][1][value]" type="radio" value="0"></input>
+<label class='btn btn-danger checkbox-label light-bg' for='radio_[scale_team][answers_attributes][1][value]_false'>
+<span class='icon-times'></span>
+No
+</label>
+</div>
+</div>
+<h4 class='scale-question-name'>Solution</h4>
+<p class='scale-section-guidelines'>
+Test the program on some puzzles, some from the students (the subject requires that they bring some) and some using the generator in the subject.<br/><br/>The program has to find a solution when it is possible, and if the puzzle is unsolvable, it has to tell the user and exit cleanly.<br/>The solution has to be valid : Check that the program does not "cheat".<br/><br/>If the generator says the puzzle is solvable, then it IS solvable, so no excuses.<br/><br/>>>> IF YOU DO NOT ANSWER YES TO THIS QUESTION, THE SESSION ENDS, DO NOT GRADE THE REST. <<<<br/>
+</p>
+<div class='scale-question-answers'>
+<div class="form-group hidden scale_team_answer_id"><div class="col-sm-10"><input class="hidden form-control" id="scale_team_answer_id" name="[scale_team][answers_attributes][2][id]" type="hidden" /></div></div>
+<div class="form-group hidden scale_team_answer_question_id"><div class="col-sm-10"><input class="hidden form-control" id="scale_team_answer_question_id" name="[scale_team][answers_attributes][2][question_id]" type="hidden" value="626" /></div></div>
+<div class='btn-group block'>
+<input autocomplete="off" class="checkbox-input" id="radio_[scale_team][answers_attributes][2][value]_true" name="[scale_team][answers_attributes][2][value]" type="radio" value="1"></input>
+<label class='btn btn-success checkbox-label light-bg' for='radio_[scale_team][answers_attributes][2][value]_true'>
+<span class='icon-check'></span>
+Yes
+</label>
+<input autocomplete="off" checked="checked" class="checkbox-input" id="radio_[scale_team][answers_attributes][2][value]_false" name="[scale_team][answers_attributes][2][value]" type="radio" value="0"></input>
+<label class='btn btn-danger checkbox-label light-bg' for='radio_[scale_team][answers_attributes][2][value]_false'>
+<span class='icon-times'></span>
+No
+</label>
+</div>
+</div>
+<h4 class='scale-question-name'>Bare-minimum time efficiency</h4>
+<p class='scale-section-guidelines'>
+The program is able to find a solution to a solvable 3-puzzle in under a few seconds. More than 10 seconds is unacceptable.<br/>
+</p>
+<div class='scale-question-answers'>
+<div class="form-group hidden scale_team_answer_id"><div class="col-sm-10"><input class="hidden form-control" id="scale_team_answer_id" name="[scale_team][answers_attributes][3][id]" type="hidden" /></div></div>
+<div class="form-group hidden scale_team_answer_question_id"><div class="col-sm-10"><input class="hidden form-control" id="scale_team_answer_question_id" name="[scale_team][answers_attributes][3][question_id]" type="hidden" value="627" /></div></div>
+<div class='btn-group block'>
+<input autocomplete="off" class="checkbox-input" id="radio_[scale_team][answers_attributes][3][value]_true" name="[scale_team][answers_attributes][3][value]" type="radio" value="1"></input>
+<label class='btn btn-success checkbox-label light-bg' for='radio_[scale_team][answers_attributes][3][value]_true'>
+<span class='icon-check'></span>
+Yes
+</label>
+<input autocomplete="off" checked="checked" class="checkbox-input" id="radio_[scale_team][answers_attributes][3][value]_false" name="[scale_team][answers_attributes][3][value]" type="radio" value="0"></input>
+<label class='btn btn-danger checkbox-label light-bg' for='radio_[scale_team][answers_attributes][3][value]_false'>
+<span class='icon-times'></span>
+No
+</label>
+</div>
+</div>
+</section>
+<section class='scale-section-item dancer from-down' id='section-256'>
+<h3 class='main-title'>Search algorithm</h3>
+<p></p>
+<h4 class='scale-question-name'>A* algorithm</h4>
+<p class='scale-section-guidelines'>
+The students implemented the A* algorithm or one of its variants (B*, IDA*, etc ...) AND are able to explain it comprehensibly.<br/>
+</p>
+<div class='scale-question-answers'>
+<div class="form-group hidden scale_team_answer_id"><div class="col-sm-10"><input class="hidden form-control" id="scale_team_answer_id" name="[scale_team][answers_attributes][4][id]" type="hidden" /></div></div>
+<div class="form-group hidden scale_team_answer_question_id"><div class="col-sm-10"><input class="hidden form-control" id="scale_team_answer_question_id" name="[scale_team][answers_attributes][4][question_id]" type="hidden" value="628" /></div></div>
+<div class='btn-group block'>
+<input autocomplete="off" class="checkbox-input" id="radio_[scale_team][answers_attributes][4][value]_true" name="[scale_team][answers_attributes][4][value]" type="radio" value="1"></input>
+<label class='btn btn-success checkbox-label light-bg' for='radio_[scale_team][answers_attributes][4][value]_true'>
+<span class='icon-check'></span>
+Yes
+</label>
+<input autocomplete="off" checked="checked" class="checkbox-input" id="radio_[scale_team][answers_attributes][4][value]_false" name="[scale_team][answers_attributes][4][value]" type="radio" value="0"></input>
+<label class='btn btn-danger checkbox-label light-bg' for='radio_[scale_team][answers_attributes][4][value]_false'>
+<span class='icon-times'></span>
+No
+</label>
+</div>
+</div>
+<h4 class='scale-question-name'>Heuristics</h4>
+<p class='scale-section-guidelines'>
+The students let the user choose between at least 3 (relevant) heuristic functions AND are able to explain how their heuristics work AND are able to explain why their heuristics are admissible.<br/>
+</p>
+<div class='scale-question-answers'>
+<div class="form-group hidden scale_team_answer_id"><div class="col-sm-10"><input class="hidden form-control" id="scale_team_answer_id" name="[scale_team][answers_attributes][5][id]" type="hidden" /></div></div>
+<div class="form-group hidden scale_team_answer_question_id"><div class="col-sm-10"><input class="hidden form-control" id="scale_team_answer_question_id" name="[scale_team][answers_attributes][5][question_id]" type="hidden" value="629" /></div></div>
+<div class='btn-group block'>
+<input autocomplete="off" class="checkbox-input" id="radio_[scale_team][answers_attributes][5][value]_true" name="[scale_team][answers_attributes][5][value]" type="radio" value="1"></input>
+<label class='btn btn-success checkbox-label light-bg' for='radio_[scale_team][answers_attributes][5][value]_true'>
+<span class='icon-check'></span>
+Yes
+</label>
+<input autocomplete="off" checked="checked" class="checkbox-input" id="radio_[scale_team][answers_attributes][5][value]_false" name="[scale_team][answers_attributes][5][value]" type="radio" value="0"></input>
+<label class='btn btn-danger checkbox-label light-bg' for='radio_[scale_team][answers_attributes][5][value]_false'>
+<span class='icon-times'></span>
+No
+</label>
+</div>
+</div>
+</section>
+<section class='scale-section-item dancer from-down' id='section-257'>
+<h3 class='main-title'>Data structures</h3>
+<p></p>
+<h4 class='scale-question-name'>Open set</h4>
+<p class='scale-section-guidelines'>
+The students have implemented their "open" set with a relevant data structure.<br/>- A priority queue (i.e a queue that gives you the high-priority elements first, here "high-priority" means "low-cost"), or another container that allows for immediate retrieval of the lowest-cost item, is worth 5<br/>- A map/dict/hash of (cost) -> (node list) is worth 3<br/>- Another container with a kind of mechanism to easily find the highest priority element is worth 2<br/>- Any other container, such as list/vector/etc ... is worth 0<br/><br/>Also, the students must be able to explain the relevance of their choice. If they can not, this is worth 0<br/>
+</p>
+<div class='scale-question-answers'>
+<div class="form-group hidden scale_team_answer_id"><div class="col-sm-10"><input class="hidden form-control" id="scale_team_answer_id" name="[scale_team][answers_attributes][6][id]" type="hidden" /></div></div>
+<div class="form-group hidden scale_team_answer_question_id"><div class="col-sm-10"><input class="hidden form-control" id="scale_team_answer_question_id" name="[scale_team][answers_attributes][6][question_id]" type="hidden" value="630" /></div></div>
+<div class='marked-title text-center'>Rate it from 0 (failed) through 5 (excellent)</div>
+<input autocomplete='off' class='star-range' data-star-range='' max='5' name='[scale_team][answers_attributes][6][value]' step='1' type='range' value='0'>
+</div>
+<h4 class='scale-question-name'>Closed set</h4>
+<p class='scale-section-guidelines'>
+The students have implemented their "closed" set with a relevant data structure.<br/>- A container that easily allows to check whether a node currently is in the set or not is worth 5<br/>- Any other container, such as list/vector/etc ... is worth 0<br/><br/>Also, the students must be able to explain the relevance of their choice. If they can not, this is worth 0<br/>
+</p>
+<div class='scale-question-answers'>
+<div class="form-group hidden scale_team_answer_id"><div class="col-sm-10"><input class="hidden form-control" id="scale_team_answer_id" name="[scale_team][answers_attributes][7][id]" type="hidden" /></div></div>
+<div class="form-group hidden scale_team_answer_question_id"><div class="col-sm-10"><input class="hidden form-control" id="scale_team_answer_question_id" name="[scale_team][answers_attributes][7][question_id]" type="hidden" value="631" /></div></div>
+<div class='marked-title text-center'>Rate it from 0 (failed) through 5 (excellent)</div>
+<input autocomplete='off' class='star-range' data-star-range='' max='5' name='[scale_team][answers_attributes][7][value]' step='1' type='range' value='0'>
+</div>
+</section>
+<section class='scale-section-item dancer from-down' id='section-258'>
+<h3 class='main-title'>Data structures</h3>
+<p></p>
+<h4 class='scale-question-name'>Greedy search</h4>
+<p class='scale-section-guidelines'>
+The students have implemented an option to do a greedy search and are able to explain it.<br/>
+</p>
+<div class='scale-question-answers'>
+<div class="form-group hidden scale_team_answer_id"><div class="col-sm-10"><input class="hidden form-control" id="scale_team_answer_id" name="[scale_team][answers_attributes][8][id]" type="hidden" /></div></div>
+<div class="form-group hidden scale_team_answer_question_id"><div class="col-sm-10"><input class="hidden form-control" id="scale_team_answer_question_id" name="[scale_team][answers_attributes][8][question_id]" type="hidden" value="632" /></div></div>
+<div class='btn-group block'>
+<input autocomplete="off" class="checkbox-input" id="radio_[scale_team][answers_attributes][8][value]_true" name="[scale_team][answers_attributes][8][value]" type="radio" value="1"></input>
+<label class='btn btn-success checkbox-label light-bg' for='radio_[scale_team][answers_attributes][8][value]_true'>
+<span class='icon-check'></span>
+Yes
+</label>
+<input autocomplete="off" checked="checked" class="checkbox-input" id="radio_[scale_team][answers_attributes][8][value]_false" name="[scale_team][answers_attributes][8][value]" type="radio" value="0"></input>
+<label class='btn btn-danger checkbox-label light-bg' for='radio_[scale_team][answers_attributes][8][value]_false'>
+<span class='icon-times'></span>
+No
+</label>
+</div>
+</div>
+<h4 class='scale-question-name'>Greedy search</h4>
+<p class='scale-section-guidelines'>
+The students have implemented an option to do a uniform-cost search and are able to explain it.<br/>
+</p>
+<div class='scale-question-answers'>
+<div class="form-group hidden scale_team_answer_id"><div class="col-sm-10"><input class="hidden form-control" id="scale_team_answer_id" name="[scale_team][answers_attributes][9][id]" type="hidden" /></div></div>
+<div class="form-group hidden scale_team_answer_question_id"><div class="col-sm-10"><input class="hidden form-control" id="scale_team_answer_question_id" name="[scale_team][answers_attributes][9][question_id]" type="hidden" value="633" /></div></div>
+<div class='btn-group block'>
+<input autocomplete="off" class="checkbox-input" id="radio_[scale_team][answers_attributes][9][value]_true" name="[scale_team][answers_attributes][9][value]" type="radio" value="1"></input>
+<label class='btn btn-success checkbox-label light-bg' for='radio_[scale_team][answers_attributes][9][value]_true'>
+<span class='icon-check'></span>
+Yes
+</label>
+<input autocomplete="off" checked="checked" class="checkbox-input" id="radio_[scale_team][answers_attributes][9][value]_false" name="[scale_team][answers_attributes][9][value]" type="radio" value="0"></input>
+<label class='btn btn-danger checkbox-label light-bg' for='radio_[scale_team][answers_attributes][9][value]_false'>
+<span class='icon-times'></span>
+No
+</label>
+</div>
+</div>
+<h4 class='scale-question-name'>Other interesting bonuses</h4>
+<p class='scale-section-guidelines'>
+The students have implemented other interesting bonuses. 1 point per identifiable bonus feature that you deem relevant and/or interesting.<br/>
+</p>
+<div class='scale-question-answers'>
+<div class="form-group hidden scale_team_answer_id"><div class="col-sm-10"><input class="hidden form-control" id="scale_team_answer_id" name="[scale_team][answers_attributes][10][id]" type="hidden" /></div></div>
+<div class="form-group hidden scale_team_answer_question_id"><div class="col-sm-10"><input class="hidden form-control" id="scale_team_answer_question_id" name="[scale_team][answers_attributes][10][question_id]" type="hidden" value="634" /></div></div>
+<div class='marked-title text-center'>Rate it from 0 (failed) through 5 (excellent)</div>
+<input autocomplete='off' class='star-range' data-star-range='' max='5' name='[scale_team][answers_attributes][10][value]' step='1' type='range' value='0'>
+</div>
+</section>
+</div>
+</div>
+<div class='container-item'>
+<h2 class='main-title primary'>Conclusion</h2>
+<div class='on-grey'>
+<div class='scale-final-evaluation hidden'>
+<div class="form-group radio_buttons optional scale_team_flag"><label class="radio_buttons optional col-sm-2 control-label">Flag</label><div class="col-sm-10"><span class="radio"><label for="scale_team_flag_ok" name="scale_team[flag]"><input checked="checked" class="radio_buttons optional" id="scale_team_flag_ok" name="scale_team[flag]" type="radio" value="ok" />Ok</label></span><span class="radio"><label for="scale_team_flag_empty_work" name="scale_team[flag]"><input class="radio_buttons optional" id="scale_team_flag_empty_work" name="scale_team[flag]" type="radio" value="empty_work" />Empty Work</label></span><span class="radio"><label for="scale_team_flag_incomplete_work" name="scale_team[flag]"><input class="radio_buttons optional" id="scale_team_flag_incomplete_work" name="scale_team[flag]" type="radio" value="incomplete_work" />Incomplete Work</label></span><span class="radio"><label for="scale_team_flag_no_author_file" name="scale_team[flag]"><input class="radio_buttons optional" id="scale_team_flag_no_author_file" name="scale_team[flag]" type="radio" value="no_author_file" />No Author File</label></span><span class="radio"><label for="scale_team_flag_invalid_compilation" name="scale_team[flag]"><input class="radio_buttons optional" id="scale_team_flag_invalid_compilation" name="scale_team[flag]" type="radio" value="invalid_compilation" />Invalid Compilation</label></span><span class="radio"><label for="scale_team_flag_norme" name="scale_team[flag]"><input class="radio_buttons optional" id="scale_team_flag_norme" name="scale_team[flag]" type="radio" value="norme" />Norme</label></span><span class="radio"><label for="scale_team_flag_cheat" name="scale_team[flag]"><input class="radio_buttons optional" id="scale_team_flag_cheat" name="scale_team[flag]" type="radio" value="cheat" />Cheat</label></span><span class="radio"><label for="scale_team_flag_crash" name="scale_team[flag]"><input class="radio_buttons optional" id="scale_team_flag_crash" name="scale_team[flag]" type="radio" value="crash" />Crash</label></span></div></div>
+</div>
+<div class='scale-final-comments' id='comments-62'>
+<p class='marked-title'>Leave a comment on this correction</p>
+<div class="form-group text required scale_team_comment"><label class="text required col-sm-2 control-label" for="scale_team_comment"><abbr title="required">*</abbr> Comment</label><div class="col-sm-10"><textarea class="text required form-control" id="scale_team_comment" name="scale_team[comment]">
+</textarea></div></div>
+</div>
+<div class='scale-final-submit'>
+<input class='btn btn-primary btn-block' data-disable-with='Finishing correction...' name='commit' type='submit' value='Finish correction'>
+</div>
+</div>
+</div>
+</form>
+
+
+
+
+</div>
+</div>
+<div class='page-sidebar right-main-container page-sidebar-fixed-right under-main-navbar'>
+<div class='app-sidebar-right' id='navbar-scale'>
+<ul class='nav' role='tablist'>
+<li class='dancer from-down' data-radio-item='flag'>
+<h4 class='marked-title'>Ratings</h4>
+<label class='active block-item label_flag_ok unpadded' for='scale_team_flag_ok' name='scale_team[flag]'>
+<span class='icon-checkmark'></span>
+Ok
+</label>
+<label class='block-item label_flag_empty_work unpadded' for='scale_team_flag_empty_work' name='scale_team[flag]'>
+<span class='icon-question-circle'></span>
+Empty work
+</label>
+<label class='block-item label_flag_incomplete_work unpadded' for='scale_team_flag_incomplete_work' name='scale_team[flag]'>
+<span class='icon-exclamation-circle'></span>
+Incomplete work
+</label>
+<label class='block-item label_flag_no_author_file unpadded' for='scale_team_flag_no_author_file' name='scale_team[flag]'>
+<span class='icon-user'></span>
+No author file
+</label>
+<label class='block-item label_flag_invalid_compilation unpadded' for='scale_team_flag_invalid_compilation' name='scale_team[flag]'>
+<span class='icon-gears'></span>
+Invalid compilation
+</label>
+<label class='block-item label_flag_norme unpadded' for='scale_team_flag_norme' name='scale_team[flag]'>
+<span class='icon-book'></span>
+Norme
+</label>
+<label class='block-item label_flag_cheat unpadded' for='scale_team_flag_cheat' name='scale_team[flag]'>
+<span class='icon-times-circle'></span>
+Cheat
+</label>
+<label class='block-item label_flag_crash unpadded' for='scale_team_flag_crash' name='scale_team[flag]'>
+<span class='icon-fire2'></span>
+Crash
+</label>
+</li>
+<li class='dancer from-down'>
+<h4 class='marked-title'>Presentation</h4>
+</li>
+<li class='dancer from-down'>
+
+</li>
+<li class='dancer from-down'>
+<a href="#introduction-62">Introduction</a>
+</li>
+<li class='dancer from-down'>
+
+</li>
+<li class='dancer from-down'>
+<a href="#guidelines-62">Guidelines</a>
+</li>
+<li class='dancer from-down'>
+
+</li>
+<li class='dancer from-down'>
+<h4 class='marked-title'>Sections</h4>
+</li>
+<li class='dancer from-down'>
+<a href="#section-254">First and foremost</a>
+</li>
+<li class='dancer from-down'>
+<a href="#section-255">Actually running the program</a>
+</li>
+<li class='dancer from-down'>
+<a href="#section-256">Search algorithm</a>
+</li>
+<li class='dancer from-down'>
+<a href="#section-257">Data structures</a>
+</li>
+<li class='dancer from-down'>
+<a href="#section-258">Data structures</a>
+</li>
+<li class='dancer from-down'>
+<h4 class='marked-title'>Conclusion</h4>
+</li>
+<li class='dancer from-down'>
+<a href="#comments-62">Comment</a>
+</li>
+</ul>
+</div>
+
+
+</div>
+<div class='right-sidebar-fix'></div>
+</div>
+<div aria-hidden='true' aria-labelledby='bugModalLabel' class='modal fade' id='smartModal' role='dialog' tabindex='-1'>
+<div class='modal-dialog'>
+<div class='modal-content'>
+<div class='modal-header'>
+<button aria-hidden='true' class='close' data-dismiss='modal' type='button'>
+x
+</button>
+<h3 id='bugModalLabel'>
+A bug ?
+</h3>
+</div>
+<div class='modal-body'>
+<h4 class='note-title'>Please wait...</h4>
+</div>
+<div class='modal-footer'>
+<button aria-hidden='true' class='btn' data-dismiss='modal'>Cancel</button>
+<button class='send btn btn-primary'>Send</button>
+</div>
+</div>
+</div>
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+  ga('create', "UA-55986469-3", 'auto');
+  
+  ga('send', 'pageview');
+</script>
+<script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-56406133-1']);
+  _gaq.push(['_setDomainName', 'intrav2.42.fr']);
+  _gaq.push(['_trackPageview']);
+</script>
+
+<div class="hide" data-cache="true"></div>
+<footer>
+<a class='hidden' href='#' id='blur-handler'></a>
+</footer>
+</body>
+</head>
+</html>
+

@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta content="IE=Edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta content="width=device-width,height=device-height,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0" name="viewport">
+<meta content="yes" name="mobile-web-app-capable">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="translucent-black" name="apple-mobile-web-app-status-bar-style">
+<meta content="Intranet 42" name="apple-mobile-web-app-title">
+<meta content="on" http-equiv="cleartype">
+<link href="https://cdn.intra.42.fr/" rel="preconnect">
+<link href="https://projects.intra.42.fr/assets/42_logo_black-684989d43d629b3c0ff6fd7e1157ee04db9bb7a73fba8ec4e01543d650a1c607.png" rel="icon" type="image/svg">
+<link href="https://projects.intra.42.fr/assets/42_logo_black-684989d43d629b3c0ff6fd7e1157ee04db9bb7a73fba8ec4e01543d650a1c607.png" rel="shortcut icon" type="image/svg">
+<link href="https://projects.intra.42.fr/opensearch.xml" rel="search" title="project" type="application/opensearchdescription+xml">
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script>
+<![endif]-->
+<title>Projects - Intra</title>
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="tiusQJGCRBiNUWqVjjDmJRrz+LyxwFM09v2jidnD8Jx1A6pfo5Kl/ZZBucVClWzau5uA7QxKSi12X96+ZljP6Q==">
+<link rel="stylesheet" media="all" href="malloc_fichiers/application-5badebaee1508490c441c358311e811191a31468ce464429.css">
+<script async="" src="malloc_fichiers/analytics.js"></script><script>
+  (function() {
+    this._user = {
+      "login": "hdent",
+      "id": 1,
+      "url": "https://profile.intra.42.fr/users/hdent"
+    };
+
+    this._consumer_address = 'wss://meta.intra.42.fr/cable';
+
+  }).call(this);
+</script>
+<script src="malloc_fichiers/application-ccdb51769f9aba9eb5bc2a47f9373831f32c28af9a2066308.js"></script>
+</head><body class=" ">
+<div class="notifications-flash-top-bar">
+
+</div>
+<script>
+  (function() {
+    this._notifCount = 0;
+
+    this._flashes = [];
+
+  }).call(this);
+</script>
+
+<div class="notifications-container" data-flashes-url="https://profile.intra.42.fr/flashes" data-notifications-url="https://profile.intra.42.fr/notifications" style="top: 60px; left: 778.65px;">
+      <header class="notifications--header">
+        <span>notifications</span>
+        <a href="https://profile.intra.42.fr/notifications">See all notifications</a>
+      </header>
+      <ul class="menu-drop-list"></ul>
+    </div>
+
+<div class="main-navbar">
+<div class="main-navbar-left">
+<div class="main-navbar-logo" data-turbolinks-scaffold="">
+<a href="https://profile.intra.42.fr/"><img alt="42" src="malloc_fichiers/42_logo-7dfc9110a5319a308863b96bda33cea995046d1731cebb735e41.svg">
+</a></div>
+<span class="hidden-sidebars main-menu-trigger lines-button x" data-trigger-menu="">
+<span class="lines"></span>
+</span>
+<a class="search-mobile-button hidden-sidebars icon-search" href="https://profile.intra.42.fr/searches"></a>
+<form action="https://profile.intra.42.fr/searches/search" class="main-navbar-search hidden-xs js-search" data-forum-url="https://forum.intra.42.fr/topics/" data-project-url="https://projects.intra.42.fr/" data-user-url="https://profile.intra.42.fr/users/" method="get">
+<span class="twitter-typeahead" style="position: relative; display: inline-block;"><input autocomplete="off" autofocus="" class="search-input tt-input" name="query" placeholder="search..." spellcheck="false" dir="auto" style="position: relative; vertical-align: top;" aria-activedescendant="" aria-owns="undefined_listbox" role="combobox" aria-readonly="true" aria-autocomplete="list"><span role="status" aria-live="polite" class="visuallyhidden"></span><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: &quot;Noto Sans&quot;,sans-serif; font-size: 15.3667px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: optimizelegibility; text-transform: none;"></pre><div role="listbox" class="tt-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;" aria-expanded="false"><div role="presentation" class="tt-dataset tt-dataset-0"></div><div role="presentation" class="tt-dataset tt-dataset-1"></div><div role="presentation" class="tt-dataset tt-dataset-2"></div></div></span>
+</form>
+</div>
+<div class="main-navbar-user-nav" data-turbolinks-scaffold="">
+<div class="user-actions hidden-xs">
+<span class="dropdown" id="quest-menu">
+<a class="user-action labelable" data-toggle="dropdown" href="#">
+<span class="icon-bookmark-3-1 user-action-icon labelable"></span>
+</a>
+<ul aria-labelledby="quest-menu" class="quest-container dropdown-menu dropdown-menu-right" role="menu">
+<p class="quest-legend">
+CURRENT MAIN QUEST
+</p>
+<li class="quest-item">
+<h4 class="quest-header">Curriculum Phase 1</h4>
+<p class="quest-description">End the first part of your curriculum.</p>
+</li>
+<li>
+<a href="https://profile.intra.42.fr/users/me/quests">See all quests</a>
+</li>
+</ul>
+</span>
+</div>
+<div class="user-actions hidden-xs">
+<a class="user-action labelable" data-notification-drop="" href="#"><span class="icon-newspaper-2 user-action-icon"></span>
+<span class="user-action-count labeled" data-counter-count="0">0</span>
+</a></div>
+<span class="dropdown">
+<a data-toggle="dropdown" href="#">
+<span data-login="hdent">
+hdent
+</span>
+<div class="user-profile-picture visible-sidebars" style="background-image: url(https://cdn.intra.42.fr/users/small_hdent.jpg)"></div>
+</a>
+<ul aria-labelledby="User menu" class="dropdown-menu" role="menu">
+<li>
+<a href="https://profile.intra.42.fr/slots"><span class="iconf-calendar"></span>
+Manage slots
+</a></li>
+<li>
+<a href="https://profile.intra.42.fr/users/hdent"><span class="iconf-user"></span>
+View my profile
+</a></li>
+<li>
+<a href="https://profile.intra.42.fr/languages">Settings
+</a></li>
+<li class="visible-xs">
+<a rel="nofollow" data-method="delete" href="https://signin.intra.42.fr/users/sign_out"><span class="iconf-power-off"></span>
+Logout
+</a></li>
+</ul>
+</span>
+
+<!-- frshp notifications -->
+<!-- = link_to("#{Rails.application.config.module_url['profile']}/friends", :class => "user-action labelable") do -->
+<!-- %span.icon-user -->
+<!-- %span.labeled= current_user.invitations.count -->
+<div class="user-actions">
+<a class="user-action labelable" rel="nofollow" data-method="delete" href="https://signin.intra.42.fr/users/sign_out"><span class="icon-power-off unlabeled"></span>
+</a></div>
+</div>
+</div>
+
+<div class="page">
+<div class="left-sidebar-fix with-main-menu"></div>
+<div class="page-sidebar left-main-container page-sidebar-fixed-left under-main-navbar"><ul class="main-left-navbar">
+<li>
+<a class="inactive" href="https://profile.intra.42.fr/"><span class="icon-user-2"></span>
+<span class="visible-overlay">
+Profile
+</span>
+</a></li>
+<li>
+<a class="active" href="https://projects.intra.42.fr/"><span class="icon-network-2-1"></span>
+<span class="visible-overlay">
+Projets
+</span>
+</a></li>
+<li>
+<a class="inactive" href="https://elearning.intra.42.fr/"><span class="icon-movie-play-1"></span>
+<span class="visible-overlay">
+E-learning
+</span>
+</a></li>
+<li>
+<a class="inactive" href="https://forum.intra.42.fr/"><span class="icon-bubble-conversation-5"></span>
+<span class="visible-overlay">
+Forum
+</span>
+</a></li>
+<li>
+<a class="inactive" href="http://companies.intra.42.fr/"><span class="icon-briefcase"></span>
+<span class="visible-overlay">
+Companies
+</span>
+</a></li>
+<li>
+<a class="inactive" href="https://meta.intra.42.fr/"><span class="icon-compass-2"></span>
+<span class="visible-overlay">
+Meta
+</span>
+</a></li>
+<li>
+<a class="inactive" href="https://shop.intra.42.fr/"><span class="icon-shopping-1"></span>
+<span class="visible-overlay">
+Shop
+</span>
+</a></li>
+</ul><div class="app-sidebar-left">
+<div class="marked-title inverse">Go to</div>
+<div class="projects-menu-list">
+<a class="project-item sidebar-item" href="https://projects.intra.42.fr/"><span class="icon-briefcase project-status-icon"></span>
+My projects
+</a><a class="project-item sidebar-item" href="https://projects.intra.42.fr/projects/graph"><span class="iconf-location project-status-icon"></span>
+All projects
+</a><a class="project-item sidebar-item" href="https://projects.intra.42.fr/projects/list"><span class="icon-list-1 project-status-icon"></span>
+List projects
+</a></div>
+<div class="marked-title inverse">Your projects</div>
+<div class="projects-menu-list">
+<a class="project-item sidebar-item" href="https://projects.intra.42.fr/projects/ft_printf">ft_printf
+</a><a class="project-item sidebar-item" href="https://projects.intra.42.fr/projects/malloc">Malloc
+</a><a class="project-item sidebar-item" href="https://projects.intra.42.fr/projects/matcha">Matcha
+</a></div>
+</div></div>
+<div class="page-content" data-turbolinks-scaffold="">
+<div class="row">
+<div class="main-top-menu">
+
+</div>
+<div class="container-item">
+<h1 class="main-title primary">
+Scale for project
+
+<a href="https://projects.intra.42.fr/projects/malloc">Malloc</a>
+<div class="marked-title">You should correct 1 student in this team</div>
+<!-- -------- La liste des personnes du groupe ------- -->
+<div class="team-users-list">
+<div class="team-user-item">
+<div class="square-s bg-image-item rounded" data-placement="bottom" data-toggle="tooltip" style="background-image: url(https://cdn.intra.42.fr/users/small_hdent.jpg)" title="" data-original-title="hdent"></div>
+<div class="team-user-item-actions">
+<div class="team-user-role rounded bprima"></div>
+<span class="iconf-star-1 leader-user" data-placement="bottom" data-toggle="tooltip" title="" data-original-title="Team leader"></span>
+</div>
+</div>
+</div>
+</h1><h4 class="marked-title">Git repository</h4>
+<div class="container-inner-item project-repo">
+<div class="input-group">
+<input class="repo-url form-control" disabled="disabled" value="vogsphere@vogsphere.42.fr:intra/2017/activities/malloc/hdent" type="text">
+<span class="copy input-group-addon" data-clipboard-text="vogsphere@vogsphere.42.fr:intra/2017/activities/malloc/hdent">
+<span class="icon-paste"></span>
+</span>
+</div>
+</div>
+
+
+<div class="scale-introduction dancer from-down" id="introduction-73">
+<h3>Introduction</h3>
+<p>
+Nous vous demandons, pour le bon déroulement de cette notation :
+<br>
+<br>- De rester courtois, poli, respectueux, constructif, lors de cet
+échange. Le lien de confiance entre la communauté 42 et vous en dépend.
+<br>- De bien mettre en évidence auprès de la personne notée (ou du groupe) les dysfonctionnements éventuels.
+<br>- D'accepter qu'il puisse y avoir parfois des différences
+d’interprétation sur les demandes du sujet ou l’étendue des
+fonctionnalités. Restez ouvert d'esprit face a la vision de l'autre
+(a-t-il raison ou tort ?), et notez le plus honnêtement possible.
+<br>
+<br>Bonne soutenance à tous !
+<br>
+</p>
+</div>
+<div class="scale-guidelines dancer from-down" id="guidelines-73">
+<h3>Guidelines</h3>
+<p>
+Vous DEVEZ effectuer tous les tests demandés.
+<br>
+<br>Attention: ce projet étant complexe, le résultat et son
+interprétation sont subjectifs. Il faut garder en tête le but de ce
+projet:
+<br>
+<br>"Ce projet consiste à implémenter un mécanisme d’allocation dynamique de la mémoire."
+<br>
+</p>
+</div>
+
+</div>
+<div class="container-item dancer from-down" id="attachments-73">
+<h2>Attachments</h2>
+<div class="project-attachments-list">
+</div>
+
+
+<div class="project-attachments-list">
+<div class="project-attachment-item">
+<h4 class="attachment-name">
+<span class="icon-file"></span>
+<a target="_blank" href="https://projects.intra.42.fr/uploads/document/document/63/malloc.pdf">Sujet</a>
+</h4>
+</div>
+</div>
+
+
+</div>
+
+<form novalidate="novalidate" class="simple_form form-horizontal edit_scale_team" id="edit_scale_team_577284" action="/projects/malloc/project_sessions/245/evaluations/27/scales/73/scale_teams/577284" accept-charset="UTF-8" method="post"><input name="utf8" value="✓" type="hidden"><input name="_method" value="patch" type="hidden"><input name="authenticity_token" value="tiusQJGCRBiNUWqVjjDmJRrz+LyxwFM09v2jidnD8Jx1A6pfo5Kl/ZZBucVClWzau5uA7QxKSi12X96+ZljP6Q==" type="hidden"><div class="container-item scale-section-answers">
+<h2 class="main-title primary">Sections</h2>
+<div class="on-grey">
+<section class="scale-section-item dancer from-down" id="section-303">
+<h3 class="main-title">Préliminaires</h3>
+<p></p>
+<h4 class="scale-question-name">Tests préliminaires</h4>
+<p class="scale-section-guidelines">
+Vérifiez d'abord les éléments suivants :
+<br>
+<br>- Il y a bien un rendu (dans le dépôt git)
+<br>- Fichier auteur valide
+<br>- Le Makefile est présent et a bien les règles demandées
+<br>- Pas de faute de norme, la Norminette faisant foi
+<br>- Pas de triche (fonctions non autorisées...)
+<br>- 2 globales sont autorisées : une pour gérer les allocations, et une pour gérer le thread-safe
+<br>
+<br>Si un élément n'est pas conforme au sujet, la notation s'arrête la.
+Vous êtes encouragés à continuer de débattre du projet, mais le barème
+n'est pas appliqué.
+<br>
+</p>
+<div class="scale-question-answers">
+<div class="form-group hidden scale_team_answer_id"><div class="col-sm-10"><input class="form-control hidden" name="[scale_team][answers_attributes][0][id]" id="scale_team_answer_id" type="hidden"></div></div>
+<div class="form-group hidden scale_team_answer_question_id"><div class="col-sm-10"><input class="form-control hidden" value="766" name="[scale_team][answers_attributes][0][question_id]" id="scale_team_answer_question_id" type="hidden"></div></div>
+<div class="btn-group block">
+<input autocomplete="off" class="checkbox-input" name="[scale_team][answers_attributes][0][value]" id="radio_[scale_team][answers_attributes][0]_true" value="1" type="radio">
+<label class="btn btn-success checkbox-label light-bg" for="radio_[scale_team][answers_attributes][0]_true">
+<span class="icon-check"></span>
+Yes
+</label>
+<input autocomplete="off" class="checkbox-input" name="[scale_team][answers_attributes][0][value]" id="radio_[scale_team][answers_attributes][0]_false" value="0" checked="checked" type="radio">
+<label class="btn btn-danger checkbox-label light-bg" for="radio_[scale_team][answers_attributes][0]_false">
+<span class="icon-times"></span>
+No
+</label>
+</div>
+</div>
+<h4 class="scale-question-name">Compilation de la librairie</h4>
+<p class="scale-section-guidelines">
+Nous allons commencer par vérifier que la compilation de la librairie
+génère bien les fichiers demandés dans le sujet, en modifiant HOSTTYPE:
+<br>
+<br>$&gt; export HOSTTYPE=Testing
+<br>$&gt; make re
+<br>...
+<br>ln -s libft_malloc_Testing.so libft_malloc.so
+<br>$&gt; ls -l libft_malloc.so
+<br>libft_malloc.so -&gt; libft_malloc_Testing.so
+<br>$&gt;
+<br>
+<br>Le Makefile utilise bien HOSTTYPE pour définir le nom de la libraire
+ (libft_malloc_$HOSSTYPE.so) et crée bien un lien symbolique
+libft_malloc.so pointant vers libft_malloc_$HOSSTYPE.so ?
+<br>
+<br>Si ce n'est pas le cas, la soutenance s'arrête.
+<br>
+</p>
+<div class="scale-question-answers">
+<div class="form-group hidden scale_team_answer_id"><div class="col-sm-10"><input class="form-control hidden" name="[scale_team][answers_attributes][1][id]" id="scale_team_answer_id" type="hidden"></div></div>
+<div class="form-group hidden scale_team_answer_question_id"><div class="col-sm-10"><input class="form-control hidden" value="767" name="[scale_team][answers_attributes][1][question_id]" id="scale_team_answer_question_id" type="hidden"></div></div>
+<div class="btn-group block">
+<input autocomplete="off" class="checkbox-input" name="[scale_team][answers_attributes][1][value]" id="radio_[scale_team][answers_attributes][1]_true" value="1" type="radio">
+<label class="btn btn-success checkbox-label light-bg" for="radio_[scale_team][answers_attributes][1]_true">
+<span class="icon-check"></span>
+Yes
+</label>
+<input autocomplete="off" class="checkbox-input" name="[scale_team][answers_attributes][1][value]" id="radio_[scale_team][answers_attributes][1]_false" value="0" checked="checked" type="radio">
+<label class="btn btn-danger checkbox-label light-bg" for="radio_[scale_team][answers_attributes][1]_false">
+<span class="icon-times"></span>
+No
+</label>
+</div>
+</div>
+<h4 class="scale-question-name">Export des fonctions</h4>
+<p class="scale-section-guidelines">
+Vérifiez avec nm que la librairie exporte bien les fonctions malloc, free, realloc et show_alloc_mem.
+<br>
+<br>$&gt; nm libft_malloc.so
+<br>0000000000000000 T _free
+<br>0000000000000000 T _malloc
+<br>0000000000000000 T _realloc
+<br>0000000000000000 T _show_alloc_mem
+<br>                 U _mmap
+<br>                 U _munmap
+<br>                 U _getpagesize
+<br>                 U _write
+<br>                 U dyld_stub_binder
+<br>$&gt;
+<br>
+<br>Les fonctions exportées par la librairie sont marquées d'un T,
+celles utilisées d'un U (les adresses ont été remplacées par des 0,
+elles changent d'une librairie à l'autre, tout comme l'ordre des
+lignes).
+<br>
+<br>Si les fonctions ne sont pas exportées, la soutenance s'arrête.
+<br>
+</p>
+<div class="scale-question-answers">
+<div class="form-group hidden scale_team_answer_id"><div class="col-sm-10"><input class="form-control hidden" name="[scale_team][answers_attributes][2][id]" id="scale_team_answer_id" type="hidden"></div></div>
+<div class="form-group hidden scale_team_answer_question_id"><div class="col-sm-10"><input class="form-control hidden" value="768" name="[scale_team][answers_attributes][2][question_id]" id="scale_team_answer_question_id" type="hidden"></div></div>
+<div class="btn-group block">
+<input autocomplete="off" class="checkbox-input" name="[scale_team][answers_attributes][2][value]" id="radio_[scale_team][answers_attributes][2]_true" value="1" type="radio">
+<label class="btn btn-success checkbox-label light-bg" for="radio_[scale_team][answers_attributes][2]_true">
+<span class="icon-check"></span>
+Yes
+</label>
+<input autocomplete="off" class="checkbox-input" name="[scale_team][answers_attributes][2][value]" id="radio_[scale_team][answers_attributes][2]_false" value="0" checked="checked" type="radio">
+<label class="btn btn-danger checkbox-label light-bg" for="radio_[scale_team][answers_attributes][2]_false">
+<span class="icon-times"></span>
+No
+</label>
+</div>
+</div>
+</section>
+<section class="scale-section-item dancer from-down" id="section-304">
+<h3 class="main-title">Tests de fonctionnalité</h3>
+<p>
+Commencez par vous faire un script de lancement qui ne modifie les
+variables d'environnement que le temps de lancer un programme de test.
+Il devra s'appeler run.sh, et être exécutable:
+
+$&gt; cat run.sh
+#!/bin/sh
+export DYLD_LIBRARY_PATH=.
+export DYLD_INSERT_LIBRARIES="libft_malloc.so"
+export DYLD_FORCE_FLAT_NAMESPACE=1
+$@
+</p>
+<h4 class="scale-question-name">Test de malloc</h4>
+<p class="scale-section-guidelines">
+Nous allons faire un premier programme de test qui ne fait pas de malloc, afin d'avoir une base de comparaison:
+<br>
+<br>$&gt; cat test0.c
+<br>#include <stdlib.h>
+<br>
+<br>int      main()
+<br>{
+<br>   int   i;
+<br>   char  *addr;
+<br>
+<br>   i = 0;
+<br>   while (i &lt; 1024)
+<br>   {
+<br>      i++;
+<br>   }
+<br>   return (0);
+<br>}
+<br>$&gt; gcc -o test0 test0.c
+<br>$&gt; /usr/bin/time -l ./test0
+<br>          0.00 real 0.00 user 0.00 sys
+<br>        491520 maximum resident set size
+<br>           0 average shared memory size
+<br>           0 average unshared data size
+<br>           0 average unshared stack size
+<br>          139 page reclaims
+<br>           0 page faults
+<br>           0 swaps
+<br>           0 block input operations
+<br>           0 block output operations
+<br>           0 messages sent
+<br>           0 messages received
+<br>           0 signals received
+<br>           0 voluntary context switches
+<br>           1 involuntary context switches
+<br>$&gt;
+<br>
+<br>Nous allons ensuite ajouter un malloc, et écrire dans chaque
+allocation pour s'assurer que la page mémoire est bien allouée en
+mémoire physique par le MMU.
+<br>Le système n'alloue vraiment la mémoire d'une page que lorsqu'on
+écrit de dedans, donc même en faisant un mmap plus grand que la demande
+de malloc, cela ne modifie pas "page reclaims".
+<br>
+<br>$&gt; cat test1.c
+<br>#include <stdlib.h>
+<br>
+<br>int      main()
+<br>{
+<br>   int   i;
+<br>   char  *addr;
+<br>
+<br>   i = 0;
+<br>   while (i &lt; 1024)
+<br>   {
+<br>      addr = (char*)malloc(1024);
+<br>      addr[0] = 42;
+<br>      i++;
+<br>   }
+<br>   return (0);
+<br>}
+<br>$&gt; gcc -o test1 test1.c
+<br>$&gt; /usr/bin/time -l ./test1
+<br>          0.00 real 0.00 user 0.00 sys
+<br>       1544192 maximum resident set size
+<br>           0 average shared memory size
+<br>           0 average unshared data size
+<br>           0 average unshared stack size
+<br>          396 page reclaims
+<br>           0 page faults
+<br>           0 swaps
+<br>           0 block input operations
+<br>           0 block output operations
+<br>           0 messages sent
+<br>           0 messages received
+<br>           0 signals received
+<br>           0 voluntary context switches
+<br>           1 involuntary context switches
+<br>$&gt;
+<br>
+<br>Notre programme test1 a demandé 1024 fois 1024 octets, donc 1Mbyte.
+<br>On peut le constater en faisant la différence avec le programme test0 :
+<br>- soit entre les lignes "maximum resident set size", on obtient un peu plus d'1Mbyte
+<br>- soit entre les lignes page reclaims qu'on multipliera par la valeur de getpagesize(3)
+<br>
+<br>Testons maintenant les deux programmes avec notre librairie:
+<br>
+<br>$&gt;./run.sh /usr/bin/time -l ./test0
+<br>     0.01 real 0.00 user 0.00 sys
+<br>   708608 maximum resident set size
+<br>     0 average shared memory size
+<br>     0 average unshared data size
+<br>     0 average unshared stack size
+<br>    214 page reclaims
+<br>     0 page faults
+<br>     0 swaps
+<br>     0 block input operations
+<br>     1 block output operations
+<br>     0 messages sent
+<br>     0 messages received
+<br>     0 signals received
+<br>     0 voluntary context switches
+<br>     1 involuntary context switches
+<br>$&gt;./run.sh /usr/bin/time -l ./test1
+<br>     0.00 real 0.00 user 0.00 sys
+<br>  4902912 maximum resident set size
+<br>     0 average shared memory size
+<br>     0 average unshared data size
+<br>     0 average unshared stack size
+<br>   1238 page reclaims
+<br>     0 page faults
+<br>     0 swaps
+<br>     0 block input operations
+<br>     0 block output operations
+<br>     0 messages sent
+<br>     0 messages received
+<br>     0 signals received
+<br>     0 voluntary context switches
+<br>     2 involuntary context switches
+<br>$&gt;
+<br>
+<br>On constate dans cet exemple que ce malloc a utilisé 1024 pages soit 4MBytes pour stocker 1Mbyte.
+<br>
+<br>Comptez le nombre de page utilisées et ajustez la note comme suit:
+<br>- moins de 255 pages, la mémoire réservée est insuffisante: 0
+<br>- 1023 pages et plus, le malloc fonctionne mais consomme une page minimum à chaque allocation: 1
+<br>- entre 513 pages et 1022 pages, le malloc fonctionne mais l'overhead est trop important: 2
+<br>- entre 313 pages et 512 pages, le malloc fonctionne mais l'overhead est très important: 3
+<br>- entre 273 pages et 312 pages, le malloc fonctionne mais l'overhead est important: 4
+<br>- entre 255 et 272 pages, le malloc fonctionne et l'overhead est raisonnable: 5
+<br>
+</stdlib.h></stdlib.h></p>
+<div class="scale-question-answers">
+<div class="form-group hidden scale_team_answer_id"><div class="col-sm-10"><input class="form-control hidden" name="[scale_team][answers_attributes][3][id]" id="scale_team_answer_id" type="hidden"></div></div>
+<div class="form-group hidden scale_team_answer_question_id"><div class="col-sm-10"><input class="form-control hidden" value="769" name="[scale_team][answers_attributes][3][question_id]" id="scale_team_answer_question_id" type="hidden"></div></div>
+<div class="marked-title text-center">Rate it from 0 (failed) through 5 (excellent)</div>
+<input autocomplete="off" class="star-range" data-star-range="" max="5" name="[scale_team][answers_attributes][3][value]" step="1" value="0" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;" type="range"><div class="rangeslider rangeslider--horizontal" id="js-rangeslider-0"><div class="rangeslider__fill" style="width: 20px;"></div><div class="rangeslider__handle" style="left: 0px;"></div></div>
+</div>
+<h4 class="scale-question-name">Les zones pré-allouées</h4>
+<p class="scale-section-guidelines">
+Vérifiez dans le code source que les zones pré-allouées en fonctions des
+ différentes tailles de malloc permettent d'y stocker au moins 100 fois
+la taille max pour ce type de zone.
+<br>Vérifiez également que la taille des zones est un multiple de getpagesize().
+<br>
+<br>Si un de ces points fait défaut, laissez Non.
+<br>
+</p>
+<div class="scale-question-answers">
+<div class="form-group hidden scale_team_answer_id"><div class="col-sm-10"><input class="form-control hidden" name="[scale_team][answers_attributes][4][id]" id="scale_team_answer_id" type="hidden"></div></div>
+<div class="form-group hidden scale_team_answer_question_id"><div class="col-sm-10"><input class="form-control hidden" value="770" name="[scale_team][answers_attributes][4][question_id]" id="scale_team_answer_question_id" type="hidden"></div></div>
+<div class="btn-group block">
+<input autocomplete="off" class="checkbox-input" name="[scale_team][answers_attributes][4][value]" id="radio_[scale_team][answers_attributes][4]_true" value="1" type="radio">
+<label class="btn btn-success checkbox-label light-bg" for="radio_[scale_team][answers_attributes][4]_true">
+<span class="icon-check"></span>
+Yes
+</label>
+<input autocomplete="off" class="checkbox-input" name="[scale_team][answers_attributes][4][value]" id="radio_[scale_team][answers_attributes][4]_false" value="0" checked="checked" type="radio">
+<label class="btn btn-danger checkbox-label light-bg" for="radio_[scale_team][answers_attributes][4]_false">
+<span class="icon-times"></span>
+No
+</label>
+</div>
+</div>
+<h4 class="scale-question-name">Tests de free</h4>
+<p class="scale-section-guidelines">
+Nous allons rajouter simplement un free à notre programme de test:
+<br>
+<br>$&gt; cat test2.c
+<br>#include <stdlib.h>
+<br>
+<br>int      main()
+<br>{
+<br>   int   i;
+<br>   char  *addr;
+<br>
+<br>   i = 0;
+<br>   while (i &lt; 1024)
+<br>   {
+<br>      addr = (char*)malloc(1024);
+<br>      addr[0] = 42;
+<br>      free(addr);
+<br>      i++;
+<br>   }
+<br>   return (0);
+<br>}
+<br>$&gt; gcc -o test2 test2.c
+<br>
+<br>Nous allons comparer le nombre de "page reclaims" à celui de test0
+et test1. S'il y a autant de "page reclaims" ou plus que test1, le free
+ne marche pas.
+<br>
+<br>$&gt;./run.sh /usr/bin/time -l ./test2
+<br>
+<br>Le free fonctionne-t-il ? (moins de "pages reclaims" que test1)
+<br>
+</stdlib.h></p>
+<div class="scale-question-answers">
+<div class="form-group hidden scale_team_answer_id"><div class="col-sm-10"><input class="form-control hidden" name="[scale_team][answers_attributes][5][id]" id="scale_team_answer_id" type="hidden"></div></div>
+<div class="form-group hidden scale_team_answer_question_id"><div class="col-sm-10"><input class="form-control hidden" value="771" name="[scale_team][answers_attributes][5][question_id]" id="scale_team_answer_question_id" type="hidden"></div></div>
+<div class="btn-group block">
+<input autocomplete="off" class="checkbox-input" name="[scale_team][answers_attributes][5][value]" id="radio_[scale_team][answers_attributes][5]_true" value="1" type="radio">
+<label class="btn btn-success checkbox-label light-bg" for="radio_[scale_team][answers_attributes][5]_true">
+<span class="icon-check"></span>
+Yes
+</label>
+<input autocomplete="off" class="checkbox-input" name="[scale_team][answers_attributes][5][value]" id="radio_[scale_team][answers_attributes][5]_false" value="0" checked="checked" type="radio">
+<label class="btn btn-danger checkbox-label light-bg" for="radio_[scale_team][answers_attributes][5]_false">
+<span class="icon-times"></span>
+No
+</label>
+</div>
+</div>
+<h4 class="scale-question-name">Qualité du free</h4>
+<p class="scale-section-guidelines">
+test2 a maximum 3 "page reclaims" en plus que test0 ?
+<br>
+</p>
+<div class="scale-question-answers">
+<div class="form-group hidden scale_team_answer_id"><div class="col-sm-10"><input class="form-control hidden" name="[scale_team][answers_attributes][6][id]" id="scale_team_answer_id" type="hidden"></div></div>
+<div class="form-group hidden scale_team_answer_question_id"><div class="col-sm-10"><input class="form-control hidden" value="772" name="[scale_team][answers_attributes][6][question_id]" id="scale_team_answer_question_id" type="hidden"></div></div>
+<div class="btn-group block">
+<input autocomplete="off" class="checkbox-input" name="[scale_team][answers_attributes][6][value]" id="radio_[scale_team][answers_attributes][6]_true" value="1" type="radio">
+<label class="btn btn-success checkbox-label light-bg" for="radio_[scale_team][answers_attributes][6]_true">
+<span class="icon-check"></span>
+Yes
+</label>
+<input autocomplete="off" class="checkbox-input" name="[scale_team][answers_attributes][6][value]" id="radio_[scale_team][answers_attributes][6]_false" value="0" checked="checked" type="radio">
+<label class="btn btn-danger checkbox-label light-bg" for="radio_[scale_team][answers_attributes][6]_false">
+<span class="icon-times"></span>
+No
+</label>
+</div>
+</div>
+<h4 class="scale-question-name">Test de realloc</h4>
+<p class="scale-section-guidelines">
+$&gt; cat test3.c
+<br>#include <strings.h>
+<br>#include <stdlib.h>
+<br>
+<br>#define M (1024 * 1024)
+<br>
+<br>void print(char *s)
+<br>{
+<br>   write(1, s, strlen(s));
+<br>}
+<br>
+<br>int     main()
+<br>{
+<br>   char *addr1;
+<br>   char *addr3;
+<br>
+<br>   addr1 = (char*)malloc(16*M);
+<br>   strcpy(addr1, "Bonjours\n");
+<br>   print(addr1);
+<br>   addr3 = (char*)realloc(addr1, 128*M);
+<br>   addr3[127*M] = 42;
+<br>   print(addr3);
+<br>   return (0);
+<br>}
+<br>$&gt; gcc -o test3 test3.c
+<br>$&gt; ./run.sh ./test3
+<br>Bonjours
+<br>Bonjours
+<br>$&gt;
+<br>
+<br>Ca fonctionne comme dans l'exemple ?
+<br>
+</stdlib.h></strings.h></p>
+<div class="scale-question-answers">
+<div class="form-group hidden scale_team_answer_id"><div class="col-sm-10"><input class="form-control hidden" name="[scale_team][answers_attributes][7][id]" id="scale_team_answer_id" type="hidden"></div></div>
+<div class="form-group hidden scale_team_answer_question_id"><div class="col-sm-10"><input class="form-control hidden" value="773" name="[scale_team][answers_attributes][7][question_id]" id="scale_team_answer_question_id" type="hidden"></div></div>
+<div class="btn-group block">
+<input autocomplete="off" class="checkbox-input" name="[scale_team][answers_attributes][7][value]" id="radio_[scale_team][answers_attributes][7]_true" value="1" type="radio">
+<label class="btn btn-success checkbox-label light-bg" for="radio_[scale_team][answers_attributes][7]_true">
+<span class="icon-check"></span>
+Yes
+</label>
+<input autocomplete="off" class="checkbox-input" name="[scale_team][answers_attributes][7][value]" id="radio_[scale_team][answers_attributes][7]_false" value="0" checked="checked" type="radio">
+<label class="btn btn-danger checkbox-label light-bg" for="radio_[scale_team][answers_attributes][7]_false">
+<span class="icon-times"></span>
+No
+</label>
+</div>
+</div>
+<h4 class="scale-question-name">Test de realloc ++</h4>
+<p class="scale-section-guidelines">
+Dans test3.c, modifiez le corps de la fonction main de la manière suivante:
+<br>
+<br>int     main()
+<br>{
+<br>   char *addr1;
+<br>   char *addr2;
+<br>   char *addr3;
+<br>
+<br>   addr1 = (char*)malloc(16*M);
+<br>   strcpy(addr1, "Bonjours\n");
+<br>   print(addr1);
+<br>   addr2 = (char*)malloc(16*M);
+<br>   addr3 = (char*)realloc(addr1, 128*M);
+<br>   addr3[127*M] = 42;
+<br>   print(addr3);
+<br>   return (0);
+<br>}
+<br>
+<br>Ca fonctionne toujours ?
+<br>
+</p>
+<div class="scale-question-answers">
+<div class="form-group hidden scale_team_answer_id"><div class="col-sm-10"><input class="form-control hidden" name="[scale_team][answers_attributes][8][id]" id="scale_team_answer_id" type="hidden"></div></div>
+<div class="form-group hidden scale_team_answer_question_id"><div class="col-sm-10"><input class="form-control hidden" value="774" name="[scale_team][answers_attributes][8][question_id]" id="scale_team_answer_question_id" type="hidden"></div></div>
+<div class="btn-group block">
+<input autocomplete="off" class="checkbox-input" name="[scale_team][answers_attributes][8][value]" id="radio_[scale_team][answers_attributes][8]_true" value="1" type="radio">
+<label class="btn btn-success checkbox-label light-bg" for="radio_[scale_team][answers_attributes][8]_true">
+<span class="icon-check"></span>
+Yes
+</label>
+<input autocomplete="off" class="checkbox-input" name="[scale_team][answers_attributes][8][value]" id="radio_[scale_team][answers_attributes][8]_false" value="0" checked="checked" type="radio">
+<label class="btn btn-danger checkbox-label light-bg" for="radio_[scale_team][answers_attributes][8]_false">
+<span class="icon-times"></span>
+No
+</label>
+</div>
+</div>
+<h4 class="scale-question-name">Gestions des erreurs</h4>
+<p class="scale-section-guidelines">
+Testez les cas particuliers et d'erreurs.
+<br>
+<br>$&gt; cat test4.c
+<br>#include <unistd.h>
+<br>#include <string.h>
+<br>#include <stdlib.h>
+<br>
+<br>void print(char *s)
+<br>{
+<br>   write(1, s, strlen(s));
+<br>}
+<br>
+<br>int    main()
+<br>{
+<br>   char *addr;
+<br>
+<br>   addr = malloc(16);
+<br>   free(NULL);
+<br>   free((void *)addr + 5);
+<br>   if (realloc((void *)addr + 5, 10) == NULL)
+<br>    print("Bonjours\n");
+<br>}
+<br>$&gt; gcc -o test4 test4.c
+<br>$&gt; ./run/sh ./test4
+<br>Bonjours
+<br>
+<br>En cas d'erreur, realloc doit renvoyer NULL. Est-ce que le "Bonjours" est affiché comme dans l'exemple ?
+<br>Si le programme réagit de façon malsaine (segfault ou autres), la
+soutenance s'arrête et vous devez sélectionner Crash en haut du barême.
+<br>
+</stdlib.h></string.h></unistd.h></p>
+<div class="scale-question-answers">
+<div class="form-group hidden scale_team_answer_id"><div class="col-sm-10"><input class="form-control hidden" name="[scale_team][answers_attributes][9][id]" id="scale_team_answer_id" type="hidden"></div></div>
+<div class="form-group hidden scale_team_answer_question_id"><div class="col-sm-10"><input class="form-control hidden" value="775" name="[scale_team][answers_attributes][9][question_id]" id="scale_team_answer_question_id" type="hidden"></div></div>
+<div class="btn-group block">
+<input autocomplete="off" class="checkbox-input" name="[scale_team][answers_attributes][9][value]" id="radio_[scale_team][answers_attributes][9]_true" value="1" type="radio">
+<label class="btn btn-success checkbox-label light-bg" for="radio_[scale_team][answers_attributes][9]_true">
+<span class="icon-check"></span>
+Yes
+</label>
+<input autocomplete="off" class="checkbox-input" name="[scale_team][answers_attributes][9][value]" id="radio_[scale_team][answers_attributes][9]_false" value="0" checked="checked" type="radio">
+<label class="btn btn-danger checkbox-label light-bg" for="radio_[scale_team][answers_attributes][9]_false">
+<span class="icon-times"></span>
+No
+</label>
+</div>
+</div>
+<h4 class="scale-question-name">Test de show_alloc_mem</h4>
+<p class="scale-section-guidelines">
+$&gt; cat test5.c
+<br>#include <stdlib.h>
+<br>
+<br>int main()
+<br>{
+<br>   malloc(1024);
+<br>   malloc(1024 * 32);
+<br>   malloc(1024 * 1024);
+<br>   malloc(1024 * 1024 * 16);
+<br>   malloc(1024 * 1024 * 128);
+<br>   show_alloc_mem();
+<br>   return (0);
+<br>}
+<br>$&gt; gcc -o test5 test5.c -L. -lft_malloc
+<br>$&gt; ./test5
+<br>
+<br>L'affichage correspond au sujet et à la répartition TINY/SMALL/LARGE du projet ?
+<br>
+</stdlib.h></p>
+<div class="scale-question-answers">
+<div class="form-group hidden scale_team_answer_id"><div class="col-sm-10"><input class="form-control hidden" name="[scale_team][answers_attributes][10][id]" id="scale_team_answer_id" type="hidden"></div></div>
+<div class="form-group hidden scale_team_answer_question_id"><div class="col-sm-10"><input class="form-control hidden" value="776" name="[scale_team][answers_attributes][10][question_id]" id="scale_team_answer_question_id" type="hidden"></div></div>
+<div class="btn-group block">
+<input autocomplete="off" class="checkbox-input" name="[scale_team][answers_attributes][10][value]" id="radio_[scale_team][answers_attributes][10]_true" value="1" type="radio">
+<label class="btn btn-success checkbox-label light-bg" for="radio_[scale_team][answers_attributes][10]_true">
+<span class="icon-check"></span>
+Yes
+</label>
+<input autocomplete="off" class="checkbox-input" name="[scale_team][answers_attributes][10][value]" id="radio_[scale_team][answers_attributes][10]_false" value="0" checked="checked" type="radio">
+<label class="btn btn-danger checkbox-label light-bg" for="radio_[scale_team][answers_attributes][10]_false">
+<span class="icon-times"></span>
+No
+</label>
+</div>
+</div>
+</section>
+<section class="scale-section-item dancer from-down" id="section-305">
+<h3 class="main-title">Bonus</h3>
+<p></p>
+<h4 class="scale-question-name">Accès concurrentiels</h4>
+<p class="scale-section-guidelines">
+Le projet gère les accès concurrentiels des threads grâce à la bibliothèque pthread et aux mutexes.
+<br>
+<br>Comptez les cas applicables :
+<br>- un mutex empêche plusieurs threads d'entrer simultanément dans la fonction malloc
+<br>- un mutex empêche plusieurs threads d'entrer simultanément dans la fonction free
+<br>- un mutex empêche plusieurs threads d'entrer simultanément dans la fonction realloc
+<br>- un mutex empêche plusieurs threads d'entrer simultanément dans la fonction show_alloc_mem
+<br>
+</p>
+<div class="scale-question-answers">
+<div class="form-group hidden scale_team_answer_id"><div class="col-sm-10"><input class="form-control hidden" name="[scale_team][answers_attributes][11][id]" id="scale_team_answer_id" type="hidden"></div></div>
+<div class="form-group hidden scale_team_answer_question_id"><div class="col-sm-10"><input class="form-control hidden" value="777" name="[scale_team][answers_attributes][11][question_id]" id="scale_team_answer_question_id" type="hidden"></div></div>
+<div class="marked-title text-center">Rate it from 0 (failed) through 5 (excellent)</div>
+<input autocomplete="off" class="star-range" data-star-range="" max="5" name="[scale_team][answers_attributes][11][value]" step="1" value="0" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;" type="range"><div class="rangeslider rangeslider--horizontal" id="js-rangeslider-1"><div class="rangeslider__fill" style="width: 20px;"></div><div class="rangeslider__handle" style="left: 0px;"></div></div>
+</div>
+<h4 class="scale-question-name">Autres bonus</h4>
+<p class="scale-section-guidelines">
+S'il y a d'autres bonus, comptez-les ici. Les bonus doivent être 100%
+fonctionnels et un minimum utiles (à la discrétion du correcteur).
+<br>
+<br>Exemple de bonus:
+<br>- Lors d'un free, le projet "défragmente" la mémoire libre en regroupant les blocs libres concomitants en un seul
+<br>- Malloc possède des variables d'environnement de debug
+<br>- Une fonction permet de faire un dump hexa des zones allouées
+<br>- Une fonction permet d'afficher un historique des allocations mémoire effectuées
+<br>- ...
+<br>
+</p>
+<div class="scale-question-answers">
+<div class="form-group hidden scale_team_answer_id"><div class="col-sm-10"><input class="form-control hidden" name="[scale_team][answers_attributes][12][id]" id="scale_team_answer_id" type="hidden"></div></div>
+<div class="form-group hidden scale_team_answer_question_id"><div class="col-sm-10"><input class="form-control hidden" value="778" name="[scale_team][answers_attributes][12][question_id]" id="scale_team_answer_question_id" type="hidden"></div></div>
+<div class="marked-title text-center">Rate it from 0 (failed) through 5 (excellent)</div>
+<input autocomplete="off" class="star-range" data-star-range="" max="5" name="[scale_team][answers_attributes][12][value]" step="1" value="0" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;" type="range"><div class="rangeslider rangeslider--horizontal" id="js-rangeslider-2"><div class="rangeslider__fill" style="width: 20px;"></div><div class="rangeslider__handle" style="left: 0px;"></div></div>
+</div>
+</section>
+</div>
+</div>
+<div class="container-item dancer from-down" id="ratings-73">
+<h2>Ratings</h2>
+<p class="marked-title">Don’t forget to check the flag corresponding to the defense</p>
+<div class="btn-group block" data-radio-item="flag-small">
+<label class="btn btn-default btn-success label_flag_ok on-active positive" for="scale_team_flag_id_1" name="scale_team[flag_id]">
+<span class="iconf-check-4"></span>
+Ok
+</label>
+<label class="btn btn-danger btn-default label_flag_empty_work negative on-active" for="scale_team_flag_id_2" name="scale_team[flag_id]">
+<span class="iconf-file-1"></span>
+Empty work
+</label>
+<label class="btn btn-danger btn-default label_flag_incomplete_work negative on-active" for="scale_team_flag_id_3" name="scale_team[flag_id]">
+<span class="iconf-file-attention"></span>
+Incomplete work
+</label>
+<label class="btn btn-danger btn-default label_flag_no_author_file negative on-active" for="scale_team_flag_id_4" name="scale_team[flag_id]">
+<span class="iconf-bubble-attention-4"></span>
+No author file
+</label>
+<label class="btn btn-danger btn-default label_flag_invalid_compilation negative on-active" for="scale_team_flag_id_5" name="scale_team[flag_id]">
+<span class="iconf-skull-2"></span>
+Invalid compilation
+</label>
+<label class="btn btn-danger btn-default label_flag_norme negative on-active" for="scale_team_flag_id_6" name="scale_team[flag_id]">
+<span class="iconf-receipt-1"></span>
+Norme
+</label>
+<label class="btn btn-danger btn-default label_flag_cheat negative on-active" for="scale_team_flag_id_7" name="scale_team[flag_id]">
+<span class="iconf-layers"></span>
+Cheat
+</label>
+<label class="btn btn-danger btn-default label_flag_crash negative on-active" for="scale_team_flag_id_8" name="scale_team[flag_id]">
+<span class="iconf-bomb"></span>
+Crash
+</label>
+</div>
+</div>
+
+<div class="container-item">
+<h2 class="main-title primary">Conclusion</h2>
+<div class="on-grey">
+<div class="scale-final-evaluation hidden">
+<div class="form-group radio_buttons optional scale_team_flag"><label class="col-sm-2 control-label radio_buttons optional">Flag</label><div class="col-sm-10"><input name="scale_team[flag_id]" value="" type="hidden"><span class="radio"><label for="scale_team_flag_id_1"><input class="radio_buttons optional" value="1" checked="checked" name="scale_team[flag_id]" id="scale_team_flag_id_1" type="radio">Ok</label></span><span class="radio"><label for="scale_team_flag_id_2"><input class="radio_buttons optional" value="2" name="scale_team[flag_id]" id="scale_team_flag_id_2" type="radio">Empty work</label></span><span class="radio"><label for="scale_team_flag_id_3"><input class="radio_buttons optional" value="3" name="scale_team[flag_id]" id="scale_team_flag_id_3" type="radio">Incomplete work</label></span><span class="radio"><label for="scale_team_flag_id_4"><input class="radio_buttons optional" value="4" name="scale_team[flag_id]" id="scale_team_flag_id_4" type="radio">No author file</label></span><span class="radio"><label for="scale_team_flag_id_5"><input class="radio_buttons optional" value="5" name="scale_team[flag_id]" id="scale_team_flag_id_5" type="radio">Invalid compilation</label></span><span class="radio"><label for="scale_team_flag_id_6"><input class="radio_buttons optional" value="6" name="scale_team[flag_id]" id="scale_team_flag_id_6" type="radio">Norme</label></span><span class="radio"><label for="scale_team_flag_id_7"><input class="radio_buttons optional" value="7" name="scale_team[flag_id]" id="scale_team_flag_id_7" type="radio">Cheat</label></span><span class="radio"><label for="scale_team_flag_id_8"><input class="radio_buttons optional" value="8" name="scale_team[flag_id]" id="scale_team_flag_id_8" type="radio">Crash</label></span></div></div>
+</div>
+<div class="scale-final-comments" id="comments-73">
+<p class="marked-title">Leave a comment on this correction</p>
+<div class="form-group text required scale_team_comment"><label class="col-sm-2 control-label text required" for="scale_team_comment"><abbr title="required">*</abbr> Comment</label><div class="col-sm-10"><textarea class="form-control text required" required="required" aria-required="true" name="scale_team[comment]" id="scale_team_comment"></textarea></div></div>
+</div>
+<input id="token" name="token" class="hidden" type="hidden">
+<div class="scale-final-submit">
+<input class="btn btn-primary btn-block" data-disable-with="Finishing correction..." name="commit" value="Finish correction" type="submit">
+</div>
+</div>
+</div>
+</form>
+
+
+
+</div>
+</div>
+</div>
+<div aria-hidden="true" aria-labelledby="smartModalLabel" class="modal fade" id="smartModal" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button aria-hidden="true" class="close" data-dismiss="modal" type="button">
+x
+</button>
+<h3 id="smartModalLabel">
+
+</h3>
+</div>
+<div class="modal-body">
+<h4 class="note-title"></h4>
+</div>
+<div class="modal-footer">
+<button aria-hidden="true" class="btn" data-dismiss="modal">Cancel</button>
+<button class="send btn btn-primary">Send</button>
+</div>
+</div>
+</div>
+</div>
+<div aria-hidden="true" aria-labelledby="flashModalLabel" class="modal fade" id="flashModal" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<button aria-hidden="true" class="close" data-dismiss="modal" type="button">
+x
+</button>
+<h3 id="flashModalLabel"></h3>
+</div>
+<div class="modal-body">
+<h4 class="note-title">Flash modal content (raw)</h4>
+</div>
+<div class="modal-footer">
+<button aria-hidden="true" class="btn btn-block btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<script>
+  function google_analytics() {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', "UA-55986469-3", 'auto');
+
+    ga('send', 'pageview');
+  }
+
+  if (!document.documentElement.hasAttribute("data-turbolinks-preview"))
+    google_analytics();
+</script>
+
+<div data-cache="true" class="hide"></div>
+
+<script>
+  var jsClasses = ["new_message", "topic-reply"];
+  jsClasses.forEach(function(className) {
+    Array.prototype.forEach.call(document.getElementsByClassName(className), function (e) {
+      e.classList.add("js-hidden");
+    });
+  });
+</script>
+
+
+
+</body></html>

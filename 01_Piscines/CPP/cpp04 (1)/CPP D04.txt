@@ -1,0 +1,278 @@
+Ratings
+
+Define the type of error (if there is an error), which ended the correction.
+
+OkEmpty workIncomplete workNo author fileInvalid compilation NormeCheatCrash
+
+Attachments
+
+ Subject
+
+ Intra - Elearning - Subnotions
+
+
+
+ Subject
+
+Sections
+
+ex00
+
+As usual, there has to be a main function that contains enough tests
+to prove the program works as required. If there isn't, do not grade
+this exercise. If any non-interface class is not in Coplien's form, do
+not grade this exercise.
+
+Sorcerer
+
+There is a Sorcerer class.
+It has a name and a title.
+It has a constructor with name and title.
+It cannot be instanciated without parameters. That means either the
+default constructor must be private, or it must be declared but
+non-implemented, to comply with Coplien's form.
+The required outputs on construction and destruction are present.
+The required overload of operator << to ostream is present and works correctly.
+
+ YesNo
+
+Victim
+
+There is a Victim class
+It has a name
+The required outputs on construction and destruction are present.
+The required overload of operator << to ostream is present and works correctly.
+
+ YesNo
+
+I want sheeps !
+
+The Victim can getPolymorphed() const, with the correct output
+The Sorcerer can polymorph(Victim const &) const
+
+ YesNo
+
+Easy subclass
+
+There is a Peon class that inherits publicly from Victim.
+It has the correct outputs
+
+ YesNo
+
+Destructor chaining
+
+The destructors in Victim and derived are virtual
+
+ YesNo
+
+Thorough testing
+
+There are tests in the main with derived classes other than Peon, and
+everything works well with them.
+
+ YesNo
+
+ex01
+
+As usual, there has to be a main function that contains enough tests
+to prove the program works as required. If there isn't, do not grade
+this exercise. If any non-interface class is not in Coplien's form, do
+not grade this exercise.
+
+Weapon
+
+There is an AWeapon class.
+It is abstract (attack() must be a pure virtual function)
+It has the attributes required by the subject : name, damage, AP cost
+Its member functions are implemented coherently.
+
+ YesNo
+
+Concrete weapons
+
+There are concrete PlasmaRifle and PowerFirst weapons. (So, they
+inherit from AWeapon)
+They have the attributes and attack() outputs specified by the subject.
+
+ YesNo
+
+Enemy
+
+There is an Enemy class.
+It has the attributes required by the subject : type, number of HP
+Its member functions are implemented coherently.
+It has the required check in takeDamage to prevent going under 0 HP
+
+ YesNo
+
+Concrete enemies
+
+There are concrete SuperMutant and RadScorpion enemies (That inherit
+from Enemy, obviously)
+They have the required attributes.
+The SuperMutant has the required overload of takeDamage() and it works
+as required.
+
+ YesNo
+
+Character
+
+There is a Character class.
+It has the attributes required by the subject : name, AP, pointer to AWeapon.
+It has the required AP behavior : 40 on start, lose X AP on attack
+depending on the weapon, and recover 10 with recoverAP up to maximum
+of 40. attack(...) fails if there isn't enough AP.
+
+ YesNo
+
+Utility and output
+
+The equip() and attack() functions work as required.
+The << overload works as required.
+
+ YesNo
+
+Thorough testing
+
+There are tests in the main with more derived weapons and more derived enemies.
+
+ YesNo
+
+Destructor chaining 2
+
+The destructors in AWeapon and its derived classes are virtual
+
+ YesNo
+
+Destructor chaining AGAIN
+
+The destructors in Enemy and its derived classes are virtual
+
+ YesNo
+
+ex02
+
+As usual, there has to be a main function that contains enough tests
+to prove the program works as required. If there isn't, do not grade
+this exercise. If any non-interface class is not in Coplien's form, do
+not grade this exercise.
+
+Interfaces
+
+The ISquad and ISpaceMarine interfaces are present and are exactly
+like the ones in the subject.
+
+ YesNo
+
+Concrete squad
+
+The Squad class is present and inherits from ISquad
+Its member functions work as required.
+Its destructor destroys the contained units.
+
+ YesNo
+
+Assignment and copy
+
+The copy and assignation behaviours of the Squad are as the subject
+required. That means deep copy, and upon assignation, exiting units
+must be destroyed before they are replaced.
+
+ YesNo
+
+Concrete units
+
+The TacticalMarine and AssaultTerminator classes are present and
+inherit from ISpaceMarine
+Their member functions work as required.
+
+ YesNo
+
+ex03
+
+As usual, there has to be a main function that contains enough tests
+to prove the program works as required. If there isn't, do not grade
+this exercise. If any non-interface class is not in Coplien's form, do
+not grade this exercise.
+
+Materia base
+
+There is an AMateria class. It has a type.
+It's abstract (clone is pure).
+The XP system is implemented as the subject requires.
+
+ YesNo
+
+Concrete materia
+
+There are concrete Ice and Cure classes that inherit from AMateria
+Their clone() method is correctly implemented.
+Their outputs are correct.
+
+ YesNo
+
+Interfaces
+
+The ICharacter and IMateriaSource interfaces are present and are
+exactly like in the subject.
+
+ YesNo
+
+Character
+
+The Character class is present and implements ICharacter.
+It has an inventory of 4 materia.
+The member functions are implemented as the subject requires.
+
+ YesNo
+
+Assignation and copy
+
+The copy and assignation of a Character are implemented as required (=
+deep copy, very much like the previous exercise)
+
+ YesNo
+
+Source
+
+The MateriaSource class is present and implements IMateriaSource.
+The member functions work as intended.
+
+ YesNo
+
+ex04
+
+As usual, there has to be a main function that contains enough tests
+to prove the program works as required. If there isn't, do not grade
+this exercise. If any non-interface class is not in Coplien's form, do
+not grade this exercise.
+
+Basics
+
+The IAsteroid and IMiningLaser interfaces are present.
+Concrete Asteroids and MiningLasers are implemented.
+
+ YesNo
+
+DD's patcher !
+
+The mine/beMined dispatch mechanism works as required.
+In theory, there should be a beMined(StripMiner *) and a
+beMined(DeepCoreMiner*), and the mine() method should call beMined
+passing "this" as parameter, which would dispatch the call to a method
+that depends on the type of the asteroid (subtype polymorphism) and
+the type of the laser (adhoc polymorphism). Basically the
+double-dispatcher design pattern, just a bit dumber.
+
+Now the clever bit : If the student tries to pass off a technique that
+uses typeid, dynamic_cast, the names of the lasers/asteroids, etc ...
+to select the output, MARK THE WHOLE PROJECT AS CHEAT and leave it at
+that, because it is EXPLICTLY forbidden by the subject.
+
+ YesNo
+
+Conclusion
+
+Leave a comment on this correction
+
+* Comment
