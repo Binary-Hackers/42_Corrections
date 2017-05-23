@@ -24,7 +24,7 @@ __If you want to see all subjects of these projects, go [HERE](https://github.co
 - [LibftASM (T2)](https://github.com/Binary-Hackers/42_Corrections/tree/master/00_Projects/01_Unix/libft-ASM)
 - [strace (T2)](https://github.com/Binary-Hackers/42_Corrections/tree/master/00_Projects/01_Unix/ft_strace)
 - [ft_p (T2)](https://github.com/Binary-Hackers/42_Corrections/tree/master/00_Projects/01_Unix/ft_p)
-- [IRC (T2)]()
+- [IRC (T2)](https://github.com/Binary-Hackers/42_Corrections/tree/master/00_Projects/01_Unix/ft_irc)
 - [Lem-ipc (T2)](https://github.com/Binary-Hackers/42_Corrections/tree/master/00_Projects/01_Unix/lem-IPC)
 - [ft_ping (T1)](https://github.com/Binary-Hackers/42_Corrections/tree/master/00_Projects/01_Unix/ft_ping)
 - [ft_traceroute (T1)](https://github.com/Binary-Hackers/42_Corrections/tree/master/00_Projects/01_Unix/ft_traceroute)
