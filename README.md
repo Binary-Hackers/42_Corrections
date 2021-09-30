@@ -41,6 +41,7 @@ __If you want to see all subjects of these projects, go [HERE](https://github.co
 - [N-puzzle (T2)](https://github.com/Binary-Hackers/42_Corrections/tree/master/00_Projects/02_Algorithmic/n-puzzle)
 - [Ft_linear_regression (T1)](https://github.com/Binary-Hackers/42_Corrections/tree/master/00_Projects/02_Algorithmic/ft_linear_regression)
 - [Gomoku (T4)](https://github.com/Binary-Hackers/42_Corrections/tree/master/00_Projects/02_Algorithmic/gomoku)
+- [Rubik (T3)](https://github.com/Binary-Hackers/42_Corrections/tree/master/00_Projects/02_Algorithmic/rubik)
 
 ### Graphic branch
 - [FDF (T1)](https://github.com/Binary-Hackers/42_Corrections/tree/master/00_Projects/03_Graphic/fdf)
